@@ -1,0 +1,1 @@
+vhdtdtfi -prj PSL_Papilio_DUO_LX9 -o C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/DUO_LX9/Wishbone_to_Registers.vhi -module Wishbone_to_Registers -template C:/Xilinx/14.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../../../../../../../../DesignLab-1.0.4/libraries/ZPUino_Wishbone_Peripherals/Wishbone_to_Registers.vhd 

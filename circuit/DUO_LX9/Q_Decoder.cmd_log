@@ -1,0 +1,1 @@
+vhdtdtfi -prj PSL_Papilio_DUO_LX9 -o C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/DUO_LX9/Q_Decoder.vhi -module Q_Decoder -template C:/Xilinx/14.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../Q_decoder.vhd 
