@@ -6,8 +6,10 @@
   1) Define your Chip:
       sketchdir://Chip_Designer.xise  
   2) Define your Circuit:
-      sketchdir://circuit/PSL_Papilio_Pro_LX9.xise
       sketchdir://circuit/PSL_Papilio_DUO_LX9.xise
+
+      There are only examples for the Papilio DUO at this time.
+      sketchdir://circuit/PSL_Papilio_Pro_LX9.xise
       sketchdir://circuit/PSL_Papilio_One_500K.xise
       sketchdir://circuit/PSL_Papilio_One_250k.xise
   3) Define your Arduino style library

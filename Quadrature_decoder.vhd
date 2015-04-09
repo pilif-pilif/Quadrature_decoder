@@ -23,13 +23,19 @@ end Quadrature_decoder;
 
 architecture BEHAVIORAL of Quadrature_decoder is
 
-	COMPONENT Wishbone_to_Registers
+	COMPONENT Wishbone_to_Registers_x10
 	PORT(
 		wishbone_in : IN std_logic_vector(100 downto 0);
 		register0_in : IN std_logic_vector(31 downto 0);
 		register1_in : IN std_logic_vector(31 downto 0);
 		register2_in : IN std_logic_vector(31 downto 0);
       register3_in : IN std_logic_vector(31 downto 0);  		
+      register4_in : IN std_logic_vector(31 downto 0);  		
+      register5_in : IN std_logic_vector(31 downto 0);  		
+      register6_in : IN std_logic_vector(31 downto 0);  		
+      register7_in : IN std_logic_vector(31 downto 0);  		
+      register8_in : IN std_logic_vector(31 downto 0);  		
+      register9_in : IN std_logic_vector(31 downto 0);  		
 		wishbone_out : OUT std_logic_vector(100 downto 0);
 		register0_out : OUT std_logic_vector(31 downto 0);
 		register1_out : OUT std_logic_vector(31 downto 0);
@@ -92,7 +98,7 @@ Encoder : Q_Decoder PORT MAP(
 	);
 
 	--Do not touch
-	Inst_Wishbone_to_Registers: Wishbone_to_Registers PORT MAP(
+	Inst_Wishbone_to_Registers: Wishbone_to_Registers_x10 PORT MAP(
 		wishbone_in => wishbone_in,
 		wishbone_out => wishbone_out,
 		register0_in => register0_in,
@@ -102,7 +108,14 @@ Encoder : Q_Decoder PORT MAP(
 		register2_in => register2_in,
 		register2_out => register2_out,
 		register3_in => register3_in,
-		register3_out => register3_out
+		register3_out => register3_out,
+		--Unused inputs need to be tied to ground
+		register4_in => x"00000000",
+		register5_in => x"00000000",
+		register6_in => x"00000000",
+		register7_in => x"00000000",
+		register8_in => x"00000000",
+		register9_in => x"00000000"
 	);
 
 end BEHAVIORAL;

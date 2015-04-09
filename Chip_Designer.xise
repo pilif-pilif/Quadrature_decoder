@@ -15,10 +15,6 @@
   <version xil_pn:ise_version="14.7" xil_pn:schema_version="2"/>
 
   <files>
-    <file xil_pn:name="Chip_Designer/Wishbone_to_Registers.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
-    </file>
     <file xil_pn:name="Quadrature_decoder.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
@@ -59,7 +55,7 @@
     <property xil_pn:name="Change Device Speed To" xil_pn:value="-2" xil_pn:valueState="default"/>
     <property xil_pn:name="Change Device Speed To Post Trace" xil_pn:value="-2" xil_pn:valueState="default"/>
     <property xil_pn:name="Combinatorial Logic Optimization" xil_pn:value="false" xil_pn:valueState="default"/>
-    <property xil_pn:name="Compile EDK Simulation Library" xil_pn:value="true" xil_pn:valueState="default"/>
+    <property xil_pn:name="Compile EDK Simulation Library" xil_pn:value="true" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Compile SIMPRIM (Timing) Simulation Library" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Compile UNISIM (Functional) Simulation Library" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Compile XilinxCoreLib (CORE Generator) Simulation Library" xil_pn:value="true" xil_pn:valueState="default"/>
@@ -385,6 +381,7 @@
   <bindings/>
 
   <libraries>
+    <library xil_pn:name="DesignLab"/>
     <library xil_pn:name="test"/>
   </libraries>
 
@@ -395,6 +392,14 @@
     <!-- Do not hand-edit this section, as it will be overwritten when the    -->
     <!-- project is analyzed based on files automatically identified as       -->
     <!-- include files.                                                       -->
+    <file xil_pn:name="../DesignLab_Examples/libraries/BitCoin_Miner/main_pll.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../DesignLab_Examples/libraries/BitCoin_Miner/raw7seg.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../DesignLab_Examples/libraries/BitCoin_Miner/serial.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../DesignLab_Examples/libraries/BitCoin_Miner/sha-256-functions.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../DesignLab_Examples/libraries/BitCoin_Miner/sha256_transform.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../DesignLab_Examples/libraries/BitCoin_Miner/uart_receiver.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../DesignLab_Examples/libraries/BitCoin_Miner/uart_transmitter.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../DesignLab_Examples/libraries/Gameduino/revision.v" xil_pn:type="FILE_VERILOG"/>
   </autoManagedFiles>
 
 </project>
