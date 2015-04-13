@@ -1,0 +1,5 @@
+MODULE Quadrature_decoder
+	SUBMODULE Wishbone_to_Registers_x10
+		INSTANCE XLXI_1
+	SUBMODULE Q_Decoder
+		INSTANCE XLXI_2

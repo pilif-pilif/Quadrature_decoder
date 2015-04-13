@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym Quadrature_decoder C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/Quadrature_decoder.sch C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/Quadrature_decoder.sym 

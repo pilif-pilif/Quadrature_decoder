@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym Edit_Your_Chip_Design C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/Chip_Designer/Edit_Your_Chip_Design.sch C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/Edit_Your_Chip_Design.sym 

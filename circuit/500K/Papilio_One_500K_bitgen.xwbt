@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\500K\Papilio_One_500K.ncd
+OUTFILE=C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\500K\Papilio_One_500K.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5vq100
+WORKINGDIR=C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\500K
+LICENSE=WebPack
+USER_INFO=__0_0_0

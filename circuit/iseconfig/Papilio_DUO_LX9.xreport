@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-04-02T15:45:27</DateModified>
+  <DateModified>2015-04-12T19:57:57</DateModified>
   <ModuleName>Papilio_DUO_LX9</ModuleName>
-  <SummaryTimeStamp>2015-04-02T15:21:59</SummaryTimeStamp>
+  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/iseconfig/Papilio_DUO_LX9.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/DUO_LX9</ImplementationReportsDirectory>
-  <DateInitialized>2015-04-02T12:35:36</DateInitialized>
+  <DateInitialized>2015-04-12T19:44:59</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

@@ -50,3 +50,4 @@ void Quadrature_decoder::write(unsigned long value)
 {
 	REGISTER(IO_SLOT(wishboneSlot),0) = value;
 }
+

@@ -1,0 +1,215 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml Papilio_Pro.twx Papilio_Pro.ncd -o Papilio_Pro.twr
+Papilio_Pro.pcf
+
+Design file:              Papilio_Pro.ncd
+Physical constraint file: Papilio_Pro.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.22 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock ext_pins_in<0>
+------------------+------------+------------+------------+------------+---------------------+--------+
+                  |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source            | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+------------------+------------+------------+------------+------------+---------------------+--------+
+WING_AH0          |    2.543(R)|      SLOW  |   -1.089(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH1          |    2.517(R)|      SLOW  |   -1.049(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH2          |    2.314(R)|      SLOW  |   -0.946(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH3          |    2.287(R)|      SLOW  |   -0.933(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH4          |    2.628(R)|      SLOW  |   -1.147(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH5          |    2.600(R)|      SLOW  |   -1.112(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH6          |    3.057(R)|      SLOW  |   -1.382(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH7          |    2.809(R)|      SLOW  |   -1.212(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AL0          |    2.913(R)|      SLOW  |   -1.434(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AL1          |    2.602(R)|      SLOW  |   -1.271(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AL2          |    2.029(R)|      SLOW  |   -0.801(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AL3          |    2.248(R)|      SLOW  |   -0.891(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AL4          |    2.313(R)|      SLOW  |   -1.054(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AL5          |    2.095(R)|      SLOW  |   -0.900(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AL6          |    2.440(R)|      SLOW  |   -1.084(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AL7          |    2.720(R)|      SLOW  |   -1.194(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH0          |    2.797(R)|      SLOW  |   -1.328(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH1          |    2.625(R)|      SLOW  |   -1.131(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH2          |    2.854(R)|      SLOW  |   -1.251(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH3          |    2.551(R)|      SLOW  |   -1.139(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH4          |    2.563(R)|      SLOW  |   -1.216(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH5          |    2.371(R)|      SLOW  |   -1.132(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH6          |    2.221(R)|      SLOW  |   -0.982(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH7          |    2.107(R)|      SLOW  |   -0.888(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL0          |    2.593(R)|      SLOW  |   -1.167(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL1          |    2.830(R)|      SLOW  |   -1.305(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL2          |    2.253(R)|      SLOW  |   -0.988(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL3          |    2.638(R)|      SLOW  |   -1.250(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL4          |    2.554(R)|      SLOW  |   -1.174(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL5          |    2.169(R)|      SLOW  |   -0.937(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL6          |    2.130(R)|      SLOW  |   -0.889(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL7          |    2.122(R)|      SLOW  |   -0.881(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH0          |    2.807(R)|      SLOW  |   -1.276(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH1          |    2.842(R)|      SLOW  |   -1.313(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH2          |    3.198(R)|      SLOW  |   -1.526(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH3          |    2.248(R)|      SLOW  |   -0.968(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH4          |    2.096(R)|      SLOW  |   -0.864(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH5          |    2.565(R)|      SLOW  |   -1.122(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH6          |    2.342(R)|      SLOW  |   -1.024(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH7          |    2.225(R)|      SLOW  |   -0.952(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL0          |    2.884(R)|      SLOW  |   -1.379(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL1          |    2.600(R)|      SLOW  |   -1.219(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL2          |    2.282(R)|      SLOW  |   -1.026(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL3          |    2.292(R)|      SLOW  |   -1.012(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL4          |    2.531(R)|      SLOW  |   -1.191(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL5          |    2.675(R)|      SLOW  |   -1.255(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL6          |    2.360(R)|      SLOW  |   -1.020(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL7          |    2.671(R)|      SLOW  |   -1.189(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_in<1>    |    3.427(R)|      SLOW  |   -1.686(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_in<2>    |    3.508(R)|      SLOW  |   -1.702(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<0> |    1.012(F)|      SLOW  |   -0.251(F)|      SLOW  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<1> |    1.182(F)|      SLOW  |   -0.351(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<2> |    1.010(F)|      SLOW  |   -0.249(F)|      SLOW  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<3> |    1.180(F)|      SLOW  |   -0.349(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<4> |    1.070(F)|      SLOW  |   -0.309(F)|      SLOW  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<5> |    1.240(F)|      SLOW  |   -0.409(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<6> |    1.068(F)|      SLOW  |   -0.307(F)|      SLOW  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<7> |    1.185(F)|      SLOW  |   -0.354(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<8> |    1.066(F)|      SLOW  |   -0.305(F)|      SLOW  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<9> |    1.236(F)|      SLOW  |   -0.405(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<10>|    1.067(F)|      SLOW  |   -0.306(F)|      SLOW  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<11>|    1.237(F)|      SLOW  |   -0.406(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<12>|    1.072(F)|      SLOW  |   -0.311(F)|      SLOW  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<13>|    1.242(F)|      SLOW  |   -0.411(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<14>|    1.067(F)|      SLOW  |   -0.306(F)|      SLOW  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<15>|    1.237(F)|      SLOW  |   -0.406(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+------------------+------------+------------+------------+------------+---------------------+--------+
+
+Clock ext_pins_in<0> to Pad
+------------------+-----------------+------------+-----------------+------------+---------------------+--------+
+                  |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination       |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------------+-----------------+------------+-----------------+------------+---------------------+--------+
+WING_AH0          |         7.849(R)|      SLOW  |         3.513(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH1          |         7.914(R)|      SLOW  |         3.438(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH2          |         7.609(R)|      SLOW  |         3.254(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH3          |         7.525(R)|      SLOW  |         3.265(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH4          |         8.186(R)|      SLOW  |         3.537(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH5          |         7.877(R)|      SLOW  |         3.515(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH6          |         8.660(R)|      SLOW  |         3.859(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_AH7          |         8.582(R)|      SLOW  |         3.897(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH0          |         8.149(R)|      SLOW  |         3.682(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH1          |         8.561(R)|      SLOW  |         3.915(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH2          |         8.455(R)|      SLOW  |         3.785(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH3          |         8.538(R)|      SLOW  |         3.718(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH4          |         8.777(R)|      SLOW  |         4.010(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH5          |         8.490(R)|      SLOW  |         3.917(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH6          |         8.416(R)|      SLOW  |         3.804(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BH7          |         8.517(R)|      SLOW  |         3.565(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL0          |         8.885(R)|      SLOW  |         3.859(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL1          |         8.692(R)|      SLOW  |         3.921(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL2          |         7.835(R)|      SLOW  |         3.283(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL3          |         7.744(R)|      SLOW  |         3.217(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL4          |         7.577(R)|      SLOW  |         3.158(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL5          |         7.353(R)|      SLOW  |         3.104(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL6          |         7.613(R)|      SLOW  |         3.273(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_BL7          |         7.618(R)|      SLOW  |         3.237(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH0          |         8.975(R)|      SLOW  |         3.730(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH1          |         9.074(R)|      SLOW  |         3.673(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH2          |         8.917(R)|      SLOW  |         3.623(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH3          |         9.438(R)|      SLOW  |         3.462(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH4          |         9.761(R)|      SLOW  |         4.332(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH5          |         9.166(R)|      SLOW  |         4.035(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH6          |         8.742(R)|      SLOW  |         4.095(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CH7          |         8.975(R)|      SLOW  |         4.097(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL0          |         8.994(R)|      SLOW  |         4.126(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL1          |         9.089(R)|      SLOW  |         4.150(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL2          |         9.309(R)|      SLOW  |         4.186(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL3          |         8.960(R)|      SLOW  |         4.200(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL4          |         8.941(R)|      SLOW  |         4.160(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL5          |         8.947(R)|      SLOW  |         4.164(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL6          |         9.096(R)|      SLOW  |         3.983(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+WING_CL7          |         8.763(R)|      SLOW  |         4.040(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<0> |        10.029(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<1> |        10.029(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<2> |         9.817(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<3> |         9.817(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<4> |         8.417(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<5> |         8.417(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<6> |         8.222(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<7> |        10.260(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<8> |         7.797(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<9> |         7.797(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<10>|         7.597(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<11>|         7.591(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<12>|         7.418(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<13>|         7.595(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<14>|         7.797(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<15>|         7.797(R)|      SLOW  |         2.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<0>   |         8.339(R)|      SLOW  |         3.888(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<1>   |         8.187(R)|      SLOW  |         3.788(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<2>   |         8.747(R)|      SLOW  |         4.148(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<3>   |        11.292(R)|      SLOW  |         5.640(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<4>   |         6.302(R)|      SLOW  |         2.444(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<5>   |         6.302(R)|      SLOW  |         2.444(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<6>   |         6.352(R)|      SLOW  |         2.494(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<7>   |         6.352(R)|      SLOW  |         2.494(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<8>   |         6.345(R)|      SLOW  |         2.487(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<9>   |         6.345(R)|      SLOW  |         2.487(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<10>  |         6.303(R)|      SLOW  |         2.445(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<11>  |         6.303(R)|      SLOW  |         2.445(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<12>  |         6.304(R)|      SLOW  |         2.446(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<13>  |         6.304(R)|      SLOW  |         2.446(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<14>  |         6.352(R)|      SLOW  |         2.494(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<15>  |         6.222(R)|      SLOW  |         2.364(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<16>  |         6.302(R)|      SLOW  |         2.444(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<17>  |         6.352(R)|      SLOW  |         2.494(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<18>  |         6.212(R)|      SLOW  |         2.354(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<20>  |         6.360(R)|      SLOW  |         2.517(R)|      FAST  |XLXI_51/clk_off_3ns  |   0.000|
+                  |         6.298(F)|      SLOW  |         2.451(F)|      FAST  |XLXI_51/clk_off_3ns  |   0.000|
+ext_pins_out<22>  |         6.215(R)|      SLOW  |         2.357(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<23>  |         6.161(R)|      SLOW  |         2.303(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<24>  |         6.223(R)|      SLOW  |         2.365(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_out<25>  |         6.212(R)|      SLOW  |         2.354(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+------------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock to Setup on destination clock ext_pins_in<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ext_pins_in<0> |    9.949|    5.051|         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sun Apr 12 19:37:20 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 182 MB
+
+
+

@@ -8,46 +8,14 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/Automatic `includes</ClosedNode>
-         <ClosedNode>/BitCoin_Miner C:|DesignLab-1.0.4|libraries|BitCoin_Miner|BitCoin_Miner.v</ClosedNode>
-         <ClosedNode>/Gameduino C:|DesignLab-1.0.4|libraries|Gameduino|Gameduino.v</ClosedNode>
-         <ClosedNode>/Papilio_DUO_LX9 C:|Users|kr|Documents|DesignLab|libraries|Quadrature_decoder|circuit|Papilio_DUO_LX9.sch/XLXI_44 - Papilio_DUO_Wing_Pinout - BEHAVIORAL</ClosedNode>
-         <ClosedNode>/Papilio_DUO_LX9 C:|Users|kr|Documents|DesignLab|libraries|Quadrature_decoder|circuit|Papilio_DUO_LX9.sch/XLXI_51 - ZPUino_Papilio_DUO_V2 - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/AUDIO_zpuino_sa_audiomixer - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/AUDIO_zpuino_wb_dual_sigmadeltaDAC - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/AUDIO_zpuino_wb_sid6581 - rtl</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/AVR_Wishbone_Bridge - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/Arcade_MegaWing_Pinout - BEHAVIORAL</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/BENCHY_sa_SumpBlaze_LogicAnalyzer8 - behavioral</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/BENCHY_sa_SumpBlaze_LogicAnalyzer8_jtag - behavioral</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/BENCHY_zpuino_wb_waveform_generator - rtl</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/COMM_zpuino_wb_SPI - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/COMM_zpuino_wb_UART - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/Computing_Shield_Pinout - BEHAVIORAL</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/Encoder_test - BEHAVIORAL</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/HQVGA - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/LogicStart_MegaWing_Pinout - BEHAVIORAL</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/LogicStart_Shield_Pinout - BEHAVIORAL</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/Papilio_Default_Pinout - BEHAVIORAL</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/Papilio_Default_Wing_Pinout - BEHAVIORAL</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/Quadrature_encoder - BEHAVIORAL</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/Simulate_Your_CCL_Design - sim</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/Template_DesignLab_Librarytest - BEHAVIORAL</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/VGA_ZPUino - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/VIDEO_zpuino_wb_vga_zxspectrum - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/ZPUino_Hyperion_Papilio_One_500K_V2 - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/ZPUino_Papilio_One_250K_V2 - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/ZPUino_Papilio_One_500K_V2 - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/ZPUino_Papilio_Pro_V2 - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/ipad - behave</ClosedNode>
-         <ClosedNode>/Unassigned User Library Modules/vga_zxspectrum_zpuino - behave</ClosedNode>
-         <ClosedNode>/Utility C:|DesignLab-1.0.4|examples|00.Papilio_Schematic_Library|Libraries|ZPUino_1|Utility.sch</ClosedNode>
+         <ClosedNode>/Papilio_DUO_LX9 C:|Users|kr|Documents|DesignLab|libraries|Quadrature_decoder|circuit|Papilio_DUO_LX9.sch</ClosedNode>
+         <ClosedNode>/Unassigned User Library Modules</ClosedNode>
+         <ClosedNode>/Utility C:|DesignLab-1.0.5|examples|00.Papilio_Schematic_Library|Libraries|ZPUino_1|Utility.sch</ClosedNode>
       </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>Papilio_DUO_LX9 (C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/Papilio_DUO_LX9.sch)</SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >65</ScrollbarPosition>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000292000000020000000000000000000000000200000064ffffffff000000810000000300000002000002920000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000128000000020000000000000000000000000200000064ffffffff000000810000000300000002000001280000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>Papilio_DUO_LX9 (C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/Papilio_DUO_LX9.sch)</CurrentItem>
    </ItemView>
@@ -56,34 +24,29 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Configure Target Device</ClosedNode>
          <ClosedNode>Design Utilities</ClosedNode>
-         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
-         <ClosedNode>Implement Design/Map</ClosedNode>
-         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
-         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
          <ClosedNode>Synthesize - XST</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Generate Programming File</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000156000000010000000100000000000000000000000064ffffffff000000810000000000000001000001560000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000167000000010000000100000000000000000000000064ffffffff000000810000000000000001000001670000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Generate Programming File</CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>Quadrature_decoder.vhd</SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >81</ScrollbarPosition>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff0000008100000000000000040000010a00000001000000000000009d0000000100000000000000660000000100000000000000700000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Quadrature_decoder.vhd</CurrentItem>
+      <CurrentItem>Arcade_MegaWing_Pinout.vhd</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -94,36 +57,23 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000001eb000000010001000100000000000000000000000064ffffffff000000810000000000000001000001eb0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>DesignLab</CurrentItem>
-   </ItemView>
-   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
-      <ClosedNodes>
-         <ClosedNodesVersion>1</ClosedNodesVersion>
-      </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>Create Schematic Symbol</SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
-      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000167000000010000000100000000000000000000000064ffffffff000000810000000000000001000001670000000100000000</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Create Schematic Symbol</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Design Utilities</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000167000000010000000100000000000000000000000064ffffffff000000810000000000000001000001670000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Design Utilities</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>

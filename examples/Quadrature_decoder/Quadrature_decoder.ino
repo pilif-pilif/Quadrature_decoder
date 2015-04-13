@@ -1,16 +1,15 @@
 /*
 
- Tutorials:
-   http://learn.gadgetfactory.net
-   http://gadgetfactory.net/learn/2013/10/29/papilio-schematic-library-getting-started/
   
-
+/*
+ http://www.gadgetfactory.net
  created 2015
  by Filip Filipov
- http://www.gadgetfactory.net
+
  
  This example code is in the public domain.
  */
+ 
 #define circuit Quadrature_decoder
 
 

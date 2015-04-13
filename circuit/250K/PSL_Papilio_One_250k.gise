@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="../PSL_Papilio_One_250k.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Papilio_One_250K.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Papilio_One_250K.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="Papilio_One_250K.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Papilio_One_250K.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Papilio_One_250K.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Papilio_One_250K.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Papilio_One_250K.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Papilio_One_250K.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Papilio_One_250K.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Papilio_One_250K.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Papilio_One_250K.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Papilio_One_250K.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Papilio_One_250K.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Papilio_One_250K.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Papilio_One_250K.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Papilio_One_250K.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Papilio_One_250K.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Papilio_One_250K.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Papilio_One_250K.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Papilio_One_250K.vhf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Papilio_One_250K.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Papilio_One_250K.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Papilio_One_250K_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Papilio_One_250K_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Papilio_One_250K_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Papilio_One_250K_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Papilio_One_250K_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Papilio_One_250K_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Papilio_One_250K_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Papilio_One_250K_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Papilio_One_250K_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Papilio_One_250K_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Papilio_One_250K_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Papilio_One_250K_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Papilio_One_250K_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Papilio_One_250K_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Papilio_One_250K_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Quadrature_decoder.vhf"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="papilio_one_250k.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="papilio_one_250k.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="papilio_one_250k.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1428859460" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1428859459">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1428859467" xil_pn:in_ck="52298313358101495" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="5580487202518573656" xil_pn:start_ts="1428859460">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Papilio_One_250K.vhf"/>
+      <outfile xil_pn:name="Quadrature_decoder.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1428859467" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8854644248764347043" xil_pn:start_ts="1428859467">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1428859467" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1428859467">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1428859467" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8404782705782745002" xil_pn:start_ts="1428859467">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1428859467" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="5199527252420087910" xil_pn:start_ts="1428859467">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1428859467" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6694900722038611801" xil_pn:start_ts="1428859467">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1428859502" xil_pn:in_ck="-1728206125635740288" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-1185861291467442733" xil_pn:start_ts="1428859467">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Papilio_One_250K.jhd"/>
+      <outfile xil_pn:name="Papilio_One_250K.lso"/>
+      <outfile xil_pn:name="Papilio_One_250K.ngc"/>
+      <outfile xil_pn:name="Papilio_One_250K.ngr"/>
+      <outfile xil_pn:name="Papilio_One_250K.prj"/>
+      <outfile xil_pn:name="Papilio_One_250K.stx"/>
+      <outfile xil_pn:name="Papilio_One_250K.syr"/>
+      <outfile xil_pn:name="Papilio_One_250K.xst"/>
+      <outfile xil_pn:name="Papilio_One_250K_vhdl.prj"/>
+      <outfile xil_pn:name="Papilio_One_250K_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1428859502" xil_pn:in_ck="3140413384129577209" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-574981501147440078" xil_pn:start_ts="1428859502">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1428859516" xil_pn:in_ck="6231299928438057836" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-595336334549273665" xil_pn:start_ts="1428859502">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Papilio_One_250K.bld"/>
+      <outfile xil_pn:name="Papilio_One_250K.ngd"/>
+      <outfile xil_pn:name="Papilio_One_250K_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1428859532" xil_pn:in_ck="4963103918851686561" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-8535960543883491901" xil_pn:start_ts="1428859516">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Papilio_One_250K.pcf"/>
+      <outfile xil_pn:name="Papilio_One_250K_map.map"/>
+      <outfile xil_pn:name="Papilio_One_250K_map.mrp"/>
+      <outfile xil_pn:name="Papilio_One_250K_map.ncd"/>
+      <outfile xil_pn:name="Papilio_One_250K_map.ngm"/>
+      <outfile xil_pn:name="Papilio_One_250K_map.xrpt"/>
+      <outfile xil_pn:name="Papilio_One_250K_summary.xml"/>
+      <outfile xil_pn:name="Papilio_One_250K_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1428859864" xil_pn:in_ck="-8809280129991231430" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="5483778956729043009" xil_pn:start_ts="1428859532">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Papilio_One_250K.ncd"/>
+      <outfile xil_pn:name="Papilio_One_250K.pad"/>
+      <outfile xil_pn:name="Papilio_One_250K.par"/>
+      <outfile xil_pn:name="Papilio_One_250K.ptwx"/>
+      <outfile xil_pn:name="Papilio_One_250K.unroutes"/>
+      <outfile xil_pn:name="Papilio_One_250K.xpi"/>
+      <outfile xil_pn:name="Papilio_One_250K_pad.csv"/>
+      <outfile xil_pn:name="Papilio_One_250K_pad.txt"/>
+      <outfile xil_pn:name="Papilio_One_250K_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1428859906" xil_pn:in_ck="7184579398366119172" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1428859864">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Papilio_One_250K.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="papilio_one_250k.bgn"/>
+      <outfile xil_pn:name="papilio_one_250k.bit"/>
+      <outfile xil_pn:name="papilio_one_250k.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1428859864" xil_pn:in_ck="4963103918851686429" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1428859852">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Papilio_One_250K.twr"/>
+      <outfile xil_pn:name="Papilio_One_250K.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

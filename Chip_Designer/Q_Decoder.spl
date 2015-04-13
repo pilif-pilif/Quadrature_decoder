@@ -1,0 +1,16 @@
+[Inputs]
+Clk
+QuadA
+QuadB
+QuadA_s
+QuadB_s
+QuadA_t
+QuadB_t
+QuadA_f
+QuadB_f
+[Outputs]
+=Position[31:0]=
+=Position_s[31:0]=
+=Position_t[31:0]=
+=Position_f[31:0]=
+[BiDir]

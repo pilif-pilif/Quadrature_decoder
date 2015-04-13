@@ -1,0 +1,28 @@
+Release 14.2 Drc P.28xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Sun Apr 12 20:02:49 2015
+
+drc -z Papilio_DUO_LX9.ncd Papilio_DUO_LX9.pcf
+
+WARNING:PhysDesignRules:1176 - Issue with pin connections and/or configuration
+   on
+   block:<XLXI_51/Inst_ZPUino_Papilio_DUO_V2_blackbox/zpuino/zpuino/core/cache/c
+   achemem/Mram_RAM1>:<RAMB16BWER_RAMB16BWER>.  The block is configured to use
+   input parity pin DIBP0. There is dangling output for parity pin DOPB0.
+WARNING:PhysDesignRules:1176 - Issue with pin connections and/or configuration
+   on
+   block:<XLXI_51/Inst_ZPUino_Papilio_DUO_V2_blackbox/zpuino/zpuino/core/cache/c
+   achemem/Mram_RAM2>:<RAMB16BWER_RAMB16BWER>.  The block is configured to use
+   input parity pin DIBP0. There is dangling output for parity pin DOPB0.
+WARNING:PhysDesignRules:1176 - Issue with pin connections and/or configuration
+   on
+   block:<XLXI_51/Inst_ZPUino_Papilio_DUO_V2_blackbox/zpuino/zpuino/core/cache/c
+   achemem/Mram_RAM3>:<RAMB16BWER_RAMB16BWER>.  The block is configured to use
+   input parity pin DIBP0. There is dangling output for parity pin DOPB0.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
+   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
+   default, may be incorrect and should not be used.  For more information,
+   please reference Xilinx Answer Record 39999.
+DRC detected 0 errors and 4 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

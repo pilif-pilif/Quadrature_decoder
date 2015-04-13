@@ -1,0 +1,71 @@
+V3 36
+FL C:/DesignLab-1.0.5/libraries/Papilio_Hardware/Papilio_Default_Wing_Pinout.vhd 2015/04/01.15:15:38 P.28xd
+EN DesignLab/Papilio_Default_Wing_Pinout 1428858609 \
+      FL C:/DesignLab-1.0.5/libraries/Papilio_Hardware/Papilio_Default_Wing_Pinout.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR DesignLab/Papilio_Default_Wing_Pinout/BEHAVIORAL 1428858610 \
+      FL C:/DesignLab-1.0.5/libraries/Papilio_Hardware/Papilio_Default_Wing_Pinout.vhd \
+      EN DesignLab/Papilio_Default_Wing_Pinout 1428858609 CP IOPAD
+FL C:/DesignLab-1.0.5/libraries/Papilio_Hardware/Wing_GPIO.vhd 2015/04/01.15:15:38 P.28xd
+EN DesignLab/Wing_GPIO 1428858611 \
+      FL C:/DesignLab-1.0.5/libraries/Papilio_Hardware/Wing_GPIO.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR DesignLab/Wing_GPIO/Behavioral 1428858612 \
+      FL C:/DesignLab-1.0.5/libraries/Papilio_Hardware/Wing_GPIO.vhd \
+      EN DesignLab/Wing_GPIO 1428858611
+FL C:/DesignLab-1.0.5/libraries/ZPUino_2/pad.vhd 2015/04/01.15:15:38 P.28xd
+PH DesignLab/pad 1428858596 FL C:/DesignLab-1.0.5/libraries/ZPUino_2/pad.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184 CD iopad CD ipad CD opad CD isync
+EN DesignLab/isync 1428858597 \
+      FL C:/DesignLab-1.0.5/libraries/ZPUino_2/pad.vhd PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR DesignLab/isync/behave 1428858598 \
+      FL C:/DesignLab-1.0.5/libraries/ZPUino_2/pad.vhd EN DesignLab/isync 1428858597 \
+      CP FD
+EN DesignLab/iopad 1428858599 \
+      FL C:/DesignLab-1.0.5/libraries/ZPUino_2/pad.vhd PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 PH DesignLab/pad 1428858596 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR DesignLab/iopad/behave 1428858600 \
+      FL C:/DesignLab-1.0.5/libraries/ZPUino_2/pad.vhd EN DesignLab/iopad 1428858599 \
+      CP isync
+EN DesignLab/ipad 1428858601 \
+      FL C:/DesignLab-1.0.5/libraries/ZPUino_2/pad.vhd PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 PH DesignLab/pad 1428858596 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR DesignLab/ipad/behave 1428858602 \
+      FL C:/DesignLab-1.0.5/libraries/ZPUino_2/pad.vhd EN DesignLab/ipad 1428858601 \
+      CP isync
+EN DesignLab/opad 1428858603 \
+      FL C:/DesignLab-1.0.5/libraries/ZPUino_2/pad.vhd PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 PH DesignLab/pad 1428858596 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR DesignLab/opad/behave 1428858604 \
+      FL C:/DesignLab-1.0.5/libraries/ZPUino_2/pad.vhd EN DesignLab/opad 1428858603 \
+      CP OBUF
+FL C:/DesignLab-1.0.5/libraries/ZPUino_2/ZPUino_Papilio_One_500K_V2.vhd 2015/04/01.15:15:38 P.28xd
+EN DesignLab/ZPUino_Papilio_One_500K_V2 1428858613 \
+      FL C:/DesignLab-1.0.5/libraries/ZPUino_2/ZPUino_Papilio_One_500K_V2.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182
+AR DesignLab/ZPUino_Papilio_One_500K_V2/behave 1428858614 \
+      FL C:/DesignLab-1.0.5/libraries/ZPUino_2/ZPUino_Papilio_One_500K_V2.vhd \
+      EN DesignLab/ZPUino_Papilio_One_500K_V2 1428858613 \
+      CP ZPUino_Papilio_One_V2_blackbox
+FL C:/DesignLab-1.0.5/libraries/ZPUino_Wishbone_Peripherals/Wishbone_to_Registers_x10.vhd 2015/04/01.15:30:56 P.28xd
+EN DesignLab/Wishbone_to_Registers_x10 1428858615 \
+      FL C:/DesignLab-1.0.5/libraries/ZPUino_Wishbone_Peripherals/Wishbone_to_Registers_x10.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/STD_LOGIC_UNSIGNED 1341906179 \
+      PB ieee/NUMERIC_STD 1341906182 LB DesignLab
+AR DesignLab/Wishbone_to_Registers_x10/rtl 1428858616 \
+      FL C:/DesignLab-1.0.5/libraries/ZPUino_Wishbone_Peripherals/Wishbone_to_Registers_x10.vhd \
+      EN DesignLab/Wishbone_to_Registers_x10 1428858615
+FL C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/Q_decoder.vhd 2015/04/02.12:47:39 P.28xd
+EN DesignLab/Q_Decoder 1428858617 \
+      FL C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/Q_decoder.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR DesignLab/Q_Decoder/Behavioral 1428858618 \
+      FL C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/Q_decoder.vhd \
+      EN DesignLab/Q_Decoder 1428858617

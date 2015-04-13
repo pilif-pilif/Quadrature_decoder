@@ -1,0 +1,2039 @@
+Release 14.2 ngdbuild P.28xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd
+../../../../../../../../DesignLab-1.0.5/libraries/AVR_Wishbone_Bridge -sd
+../../../../../../../../DesignLab-1.0.5/libraries/Benchy -sd
+../../../../../../../../DesignLab-1.0.5/libraries/BitCoin_Miner -sd
+../../../../../../../../DesignLab-1.0.5/libraries/Building_Blocks -sd
+../../../../../../../../DesignLab-1.0.5/libraries/Clocks -sd
+../../../../../../../../DesignLab-1.0.5/libraries/Gameduino -sd
+../../../../../../../../DesignLab-1.0.5/libraries/HQVGA -sd
+../../../../../../../../DesignLab-1.0.5/libraries/Papilio_Hardware -sd
+../../../../../../../../DesignLab-1.0.5/libraries/VGA_ZPUino -sd
+../../../../../../../../DesignLab-1.0.5/libraries/VGA_ZXSpectrum -sd
+../../../../../../../../DesignLab-1.0.5/libraries/ZPUino_2 -sd
+../../../../../../../../DesignLab-1.0.5/libraries/ZPUino_Wishbone_Peripherals
+-sd ../.. -aul -nt timestamp -uc
+C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/PSL_
+Papilio_DUO_LX9/papilio_duo.ucf -p xc6slx9-tqg144-2 Papilio_DUO_LX9.ngc
+Papilio_DUO_LX9.ngd
+
+Reading NGO file
+"C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/DUO_LX9/Pa
+pilio_DUO_LX9.ngc" ...
+Loading design module
+"../../../../../../../../DesignLab-1.0.5/libraries/ZPUino_2/ZPUino_Papilio_DUO_V
+2_blackbox.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/PSL
+_Papilio_DUO_LX9/papilio_duo.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:59 - Constraint <NET CLK      LOC="P94"  |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(31)]: NET "CLK" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET CLK      LOC="P94"  |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(31)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(31)]: NET "CLK" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_Period_1 = PERIOD "CLK"
+   31.25 ns HIGH 50%;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(32)]: Unable to find an active 'TNM' or
+   'TimeGrp' constraint named 'CLK'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_Period_2 = PERIOD "CLK"
+   31.25 ns HIGH 50%;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(34)]: Unable to find an active 'TNM' or
+   'TimeGrp' constraint named 'CLK'.
+
+INFO:ConstraintSystem:59 - Constraint <NET TXD       LOC="P141" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(35)]: NET "TXD" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET TXD       LOC="P141" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(35)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(35)]: NET "TXD" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(35)]: NET "TXD" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(35)]: NET "TXD" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET RXD       LOC="P46" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(37)]: NET "RXD" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET RXD       LOC="P46" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(37)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(37)]: NET "RXD" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(37)]: NET "RXD" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(37)]: NET "RXD" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<0>" LOC = "P7" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(100)]: NET "sram_addr<0>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<0>" LOC = "P7" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(100)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(100)]: NET "sram_addr<0>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(100)]: NET "sram_addr<0>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<1>" LOC = "P8" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(101)]: NET "sram_addr<1>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<1>" LOC = "P8" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(101)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(101)]: NET "sram_addr<1>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(101)]: NET "sram_addr<1>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<2>" LOC = "P9" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(102)]: NET "sram_addr<2>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<2>" LOC = "P9" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(102)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(102)]: NET "sram_addr<2>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(102)]: NET "sram_addr<2>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<3>" LOC = "P10" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(103)]: NET "sram_addr<3>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<3>" LOC = "P10" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(103)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(103)]: NET "sram_addr<3>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(103)]: NET "sram_addr<3>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<4>" LOC = "P11" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(104)]: NET "sram_addr<4>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<4>" LOC = "P11" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(104)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(104)]: NET "sram_addr<4>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(104)]: NET "sram_addr<4>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<5>" LOC = "P5" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(105)]: NET "sram_addr<5>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<5>" LOC = "P5" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(105)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(105)]: NET "sram_addr<5>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(105)]: NET "sram_addr<5>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<6>" LOC = "P2" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(106)]: NET "sram_addr<6>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<6>" LOC = "P2" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(106)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(106)]: NET "sram_addr<6>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(106)]: NET "sram_addr<6>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<7>" LOC = "P1" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(107)]: NET "sram_addr<7>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<7>" LOC = "P1" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(107)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(107)]: NET "sram_addr<7>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(107)]: NET "sram_addr<7>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<8>" LOC = "P143" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(108)]: NET "sram_addr<8>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<8>" LOC = "P143" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(108)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(108)]: NET "sram_addr<8>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(108)]: NET "sram_addr<8>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<9>" LOC = "P142" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(109)]: NET "sram_addr<9>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<9>" LOC = "P142" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(109)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(109)]: NET "sram_addr<9>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(109)]: NET "sram_addr<9>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<10>" LOC = "P43" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(110)]: NET "sram_addr<10>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<10>" LOC = "P43" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(110)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(110)]: NET "sram_addr<10>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(110)]: NET "sram_addr<10>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<11>" LOC = "P41" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(111)]: NET "sram_addr<11>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<11>" LOC = "P41" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(111)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(111)]: NET "sram_addr<11>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(111)]: NET "sram_addr<11>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<12>" LOC = "P40" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(112)]: NET "sram_addr<12>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<12>" LOC = "P40" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(112)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(112)]: NET "sram_addr<12>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(112)]: NET "sram_addr<12>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<13>" LOC = "P35" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(113)]: NET "sram_addr<13>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<13>" LOC = "P35" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(113)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(113)]: NET "sram_addr<13>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(113)]: NET "sram_addr<13>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<14>" LOC = "P34" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(114)]: NET "sram_addr<14>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<14>" LOC = "P34" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(114)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(114)]: NET "sram_addr<14>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(114)]: NET "sram_addr<14>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<15>" LOC = "P27" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(115)]: NET "sram_addr<15>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<15>" LOC = "P27" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(115)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(115)]: NET "sram_addr<15>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(115)]: NET "sram_addr<15>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<16>" LOC = "P29" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(116)]: NET "sram_addr<16>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<16>" LOC = "P29" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(116)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(116)]: NET "sram_addr<16>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(116)]: NET "sram_addr<16>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<17>" LOC = "P33" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(117)]: NET "sram_addr<17>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<17>" LOC = "P33" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(117)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(117)]: NET "sram_addr<17>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(117)]: NET "sram_addr<17>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<18>" LOC = "P32" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(118)]: NET "sram_addr<18>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<18>" LOC = "P32" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(118)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(118)]: NET "sram_addr<18>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(118)]: NET "sram_addr<18>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<0>" LOC = "P14" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(145)]: NET "sram_data<0>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<0>" LOC = "P14" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(145)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(145)]: NET "sram_data<0>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(145)]: NET "sram_data<0>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<1>" LOC = "P15" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(146)]: NET "sram_data<1>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<1>" LOC = "P15" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(146)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(146)]: NET "sram_data<1>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(146)]: NET "sram_data<1>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<2>" LOC = "P16" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(147)]: NET "sram_data<2>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<2>" LOC = "P16" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(147)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(147)]: NET "sram_data<2>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(147)]: NET "sram_data<2>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<3>" LOC = "P17" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(148)]: NET "sram_data<3>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<3>" LOC = "P17" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(148)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(148)]: NET "sram_data<3>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(148)]: NET "sram_data<3>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<4>" LOC = "P21" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(149)]: NET "sram_data<4>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<4>" LOC = "P21" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(149)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(149)]: NET "sram_data<4>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(149)]: NET "sram_data<4>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<5>" LOC = "P22" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(150)]: NET "sram_data<5>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<5>" LOC = "P22" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(150)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(150)]: NET "sram_data<5>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(150)]: NET "sram_data<5>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<6>" LOC = "P23" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(151)]: NET "sram_data<6>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<6>" LOC = "P23" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(151)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(151)]: NET "sram_data<6>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(151)]: NET "sram_data<6>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<7>" LOC = "P24" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(152)]: NET "sram_data<7>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<7>" LOC = "P24" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(152)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(152)]: NET "sram_data<7>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(152)]: NET "sram_data<7>" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_ce" LOC = "P12" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(164)]: NET "sram_ce" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_ce" LOC = "P12" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(164)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(164)]: NET "sram_ce" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(164)]: NET "sram_ce" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_we" LOC = "P6" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(166)]: NET "sram_we" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_we" LOC = "P6" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(166)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(166)]: NET "sram_we" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(166)]: NET "sram_we" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_oe" LOC = "P26" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(168)]: NET "sram_oe" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_oe" LOC = "P26" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(168)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(168)]: NET "sram_oe" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(168)]: NET "sram_oe" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SPI_CS      LOC="P38"   |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(171)]: NET "SPI_CS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_CS      LOC="P38"   |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(171)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(171)]: NET "SPI_CS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(171)]: NET "SPI_CS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(171)]: NET "SPI_CS" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SPI_SCK     LOC="P70"  |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(173)]: NET "SPI_SCK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_SCK     LOC="P70"  |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(173)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(173)]: NET "SPI_SCK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(173)]: NET "SPI_SCK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(173)]: NET "SPI_SCK" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SPI_MOSI    LOC="P64"  |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(175)]: NET "SPI_MOSI" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_MOSI    LOC="P64"  |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(175)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(175)]: NET "SPI_MOSI" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(175)]: NET "SPI_MOSI" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(175)]: NET "SPI_MOSI" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SPI_MISO    LOC="P65"  |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(177)]: NET "SPI_MISO" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_MISO    LOC="P65"  |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(177)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(177)]: NET "SPI_MISO" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(177)]: NET "SPI_MISO" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(177)]: NET "SPI_MISO" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET BD0_MPSSE_TCK LOC="P46" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(181)]: NET "BD0_MPSSE_TCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET BD0_MPSSE_TCK LOC="P46" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(181)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(181)]: NET "BD0_MPSSE_TCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(181)]: NET "BD0_MPSSE_TCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(181)]: NET "BD0_MPSSE_TCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET BD1_MPSSE_TDI LOC="P141" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(182)]: NET "BD1_MPSSE_TDI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET BD1_MPSSE_TDI LOC="P141" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(182)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(182)]: NET "BD1_MPSSE_TDI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(182)]: NET "BD1_MPSSE_TDI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(182)]: NET "BD1_MPSSE_TDI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET BD2_MPSSE_TDO LOC="P140" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(183)]: NET "BD2_MPSSE_TDO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET BD2_MPSSE_TDO LOC="P140" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(183)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(183)]: NET "BD2_MPSSE_TDO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(183)]: NET "BD2_MPSSE_TDO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(183)]: NET "BD2_MPSSE_TDO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET BD3_MPSSE_TMS LOC="P138" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(184)]: NET "BD3_MPSSE_TMS" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET BD3_MPSSE_TMS LOC="P138" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(184)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(184)]: NET "BD3_MPSSE_TMS" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(184)]: NET "BD3_MPSSE_TMS" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(184)]: NET "BD3_MPSSE_TMS" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET BD4_MPSSE_DTR LOC="P137" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(185)]: NET "BD4_MPSSE_DTR" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET BD4_MPSSE_DTR LOC="P137" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(185)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(185)]: NET "BD4_MPSSE_DTR" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(185)]: NET "BD4_MPSSE_DTR" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(185)]: NET "BD4_MPSSE_DTR" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_JTAG_TDI LOC="P88" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(188)]: NET "ARD_JTAG_TDI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_JTAG_TDI LOC="P88" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(188)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(188)]: NET "ARD_JTAG_TDI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(188)]: NET "ARD_JTAG_TDI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(188)]: NET "ARD_JTAG_TDI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_JTAG_TDO LOC="P85" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(189)]: NET "ARD_JTAG_TDO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_JTAG_TDO LOC="P85" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(189)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(189)]: NET "ARD_JTAG_TDO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(189)]: NET "ARD_JTAG_TDO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(189)]: NET "ARD_JTAG_TDO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_JTAG_TMS LOC="P83" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(190)]: NET "ARD_JTAG_TMS" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_JTAG_TMS LOC="P83" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(190)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(190)]: NET "ARD_JTAG_TMS" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(190)]: NET "ARD_JTAG_TMS" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(190)]: NET "ARD_JTAG_TMS" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_JTAG_TCK LOC="P81" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(191)]: NET "ARD_JTAG_TCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_JTAG_TCK LOC="P81" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(191)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(191)]: NET "ARD_JTAG_TCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(191)]: NET "ARD_JTAG_TCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(191)]: NET "ARD_JTAG_TCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_SPI_MISO LOC="P133" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(194)]: NET "ARD_SPI_MISO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_SPI_MISO LOC="P133" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(194)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(194)]: NET "ARD_SPI_MISO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(194)]: NET "ARD_SPI_MISO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(194)]: NET "ARD_SPI_MISO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_SPI_MOSI LOC="P132" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(195)]: NET "ARD_SPI_MOSI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_SPI_MOSI LOC="P132" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(195)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(195)]: NET "ARD_SPI_MOSI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(195)]: NET "ARD_SPI_MOSI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(195)]: NET "ARD_SPI_MOSI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_SPI_SCLK LOC="P134" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(196)]: NET "ARD_SPI_SCLK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_SPI_SCLK LOC="P134" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(196)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(196)]: NET "ARD_SPI_SCLK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(196)]: NET "ARD_SPI_SCLK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(196)]: NET "ARD_SPI_SCLK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_SPI_GND 	LOC="P78" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(199)]: NET "DRAGON_SPI_GND" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_SPI_GND 	LOC="P78" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(199)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(199)]: NET "DRAGON_SPI_GND" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(199)]: NET "DRAGON_SPI_GND" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(199)]: NET "DRAGON_SPI_GND" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_SPI_RESET LOC="P79" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(200)]: NET "DRAGON_SPI_RESET" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_SPI_RESET LOC="P79" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(200)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(200)]: NET "DRAGON_SPI_RESET" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(200)]: NET "DRAGON_SPI_RESET" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(200)]: NET "DRAGON_SPI_RESET" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_SPI_MOSI	LOC="P74" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(202)]: NET "DRAGON_SPI_MOSI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_SPI_MOSI	LOC="P74" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(202)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(202)]: NET "DRAGON_SPI_MOSI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(202)]: NET "DRAGON_SPI_MOSI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(202)]: NET "DRAGON_SPI_MOSI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_SPI_SCK	LOC="P75" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(203)]: NET "DRAGON_SPI_SCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_SPI_SCK	LOC="P75" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(203)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(203)]: NET "DRAGON_SPI_SCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(203)]: NET "DRAGON_SPI_SCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(203)]: NET "DRAGON_SPI_SCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_SPI_VTG	LOC="P66" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(204)]: NET "DRAGON_SPI_VTG" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_SPI_VTG	LOC="P66" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(204)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(204)]: NET "DRAGON_SPI_VTG" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=24 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(204)]: NET "DRAGON_SPI_VTG" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(204)]: NET "DRAGON_SPI_VTG" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_SPI_MISO	LOC="P67" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(205)]: NET "DRAGON_SPI_MISO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_SPI_MISO	LOC="P67" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(205)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(205)]: NET "DRAGON_SPI_MISO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(205)]: NET "DRAGON_SPI_MISO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(205)]: NET "DRAGON_SPI_MISO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_TCK 		LOC="P47" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(208)]: NET "DRAGON_JTAG_TCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_TCK 		LOC="P47" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(208)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(208)]: NET "DRAGON_JTAG_TCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(208)]: NET "DRAGON_JTAG_TCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(208)]: NET "DRAGON_JTAG_TCK" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_GND 		LOC="P39" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(209)]: NET "DRAGON_JTAG_GND" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_GND 		LOC="P39" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(209)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(209)]: NET "DRAGON_JTAG_GND" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(209)]: NET "DRAGON_JTAG_GND" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(209)]: NET "DRAGON_JTAG_GND" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_TDO		LOC="P50" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(210)]: NET "DRAGON_JTAG_TDO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_TDO		LOC="P50" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(210)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(210)]: NET "DRAGON_JTAG_TDO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(210)]: NET "DRAGON_JTAG_TDO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(210)]: NET "DRAGON_JTAG_TDO" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_VTG		LOC="P48" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(211)]: NET "DRAGON_JTAG_VTG" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_VTG		LOC="P48" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(211)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(211)]: NET "DRAGON_JTAG_VTG" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=24 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(211)]: NET "DRAGON_JTAG_VTG" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(211)]: NET "DRAGON_JTAG_VTG" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_TMS 		LOC="P55" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(212)]: NET "DRAGON_JTAG_TMS" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_TMS 		LOC="P55" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(212)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(212)]: NET "DRAGON_JTAG_TMS" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(212)]: NET "DRAGON_JTAG_TMS" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(212)]: NET "DRAGON_JTAG_TMS" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_RESET 	LOC="P51" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(213)]: NET "DRAGON_JTAG_RESET" not found.
+    Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_RESET 	LOC="P51" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(213)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(213)]: NET "DRAGON_JTAG_RESET" not found.
+    Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(213)]: NET "DRAGON_JTAG_RESET" not found.
+    Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(213)]: NET "DRAGON_JTAG_RESET" not found.
+    Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_TDI 		LOC="P59" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(215)]: NET "DRAGON_JTAG_TDI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_TDI 		LOC="P59" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(215)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(215)]: NET "DRAGON_JTAG_TDI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(215)]: NET "DRAGON_JTAG_TDI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(215)]: NET "DRAGON_JTAG_TDI" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_GND2		LOC="P58" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(216)]: NET "DRAGON_JTAG_GND2" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_GND2		LOC="P58" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(216)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(216)]: NET "DRAGON_JTAG_GND2" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(216)]: NET "DRAGON_JTAG_GND2" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(216)]: NET "DRAGON_JTAG_GND2" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DUO_LED					LOC="P134" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(221)]: NET "DUO_LED" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DUO_LED					LOC="P134" |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(221)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(221)]: NET "DUO_LED" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(221)]: NET "DUO_LED" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;>
+   [C:/DesignLab-1.0.5/examples/00.Papilio_Schematic_Library/Libraries/ZPUino_1/
+   PSL_Papilio_DUO_LX9/papilio_duo.ucf(221)]: NET "DUO_LED" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:478 - clock net
+   XLXI_51/Inst_ZPUino_Papilio_DUO_V2_blackbox/wishbone_slot_video_out<98> with
+   clock driver XLXI_51/Inst_ZPUino_Papilio_DUO_V2_blackbox/clkgen_inst/vgainst
+   drives no clock pins
+WARNING:NgdBuild:478 - clock net
+   XLXI_51/Inst_ZPUino_Papilio_DUO_V2_blackbox/wishbone_slot_video_out<97> with
+   clock driver
+   XLXI_51/Inst_ZPUino_Papilio_DUO_V2_blackbox/clkgen_inst/clk42_inst drives no
+   clock pins
+WARNING:NgdBuild:478 - clock net
+   XLXI_51/Inst_ZPUino_Papilio_DUO_V2_blackbox/clk_1Mhz with clock driver
+   XLXI_51/Inst_ZPUino_Papilio_DUO_V2_blackbox/clkgen_inst/clkfx_inst_1mhz
+   drives no clock pins
+WARNING:NgdBuild:478 - clock net
+   XLXI_51/Inst_ZPUino_Papilio_DUO_V2_blackbox/clk_sysclk_sram_wen with clock
+   driver XLXI_51/Inst_ZPUino_Papilio_DUO_V2_blackbox/clkgen_inst/clk2_inst
+   drives no clock pins
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  70
+
+Total memory usage is 134580 kilobytes
+
+Writing NGD file "Papilio_DUO_LX9.ngd" ...
+Total REAL time to NGDBUILD completion:  9 sec
+Total CPU time to NGDBUILD completion:   8 sec
+
+Writing NGDBUILD log file "Papilio_DUO_LX9.bld"...

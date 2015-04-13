@@ -1,0 +1,19 @@
+V3 13
+FL C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/500K/Papilio_One_500K.vhf 2015/04/12.20:09:45 P.28xd
+EN work/Papilio_One_500K 1428858607 \
+      FL C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/500K/Papilio_One_500K.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/Papilio_One_500K/BEHAVIORAL 1428858608 \
+      FL C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/500K/Papilio_One_500K.vhf \
+      EN work/Papilio_One_500K 1428858607 CP Wing_GPIO CP Quadrature_decoder \
+      CP Papilio_Default_Wing_Pinout CP ZPUino_Papilio_One_500K_V2
+FL C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/500K/Quadrature_decoder.vhf 2015/04/12.20:09:44 P.28xd
+EN work/Quadrature_decoder 1428858605 \
+      FL C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/500K/Quadrature_decoder.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/Quadrature_decoder/BEHAVIORAL 1428858606 \
+      FL C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/500K/Quadrature_decoder.vhf \
+      EN work/Quadrature_decoder 1428858605 CP Wishbone_to_Registers_x10 \
+      CP Q_Decoder

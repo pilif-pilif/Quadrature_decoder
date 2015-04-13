@@ -1,0 +1,222 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml Papilio_DUO_LX9.twx Papilio_DUO_LX9.ncd -o
+Papilio_DUO_LX9.twr Papilio_DUO_LX9.pcf
+
+Design file:              Papilio_DUO_LX9.ncd
+Physical constraint file: Papilio_DUO_LX9.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.22 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock ext_pins_in<0>
+-----------------+------------+------------+------------+------------+---------------------+--------+
+                 |Max Setup to|  Process   |Max Hold to |  Process   |                     | Clock  |
+Source           | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)    | Phase  |
+-----------------+------------+------------+------------+------------+---------------------+--------+
+Arduino_0        |    2.445(R)|      SLOW  |   -1.211(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_1        |    2.287(R)|      SLOW  |   -0.999(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_2        |    2.184(R)|      SLOW  |   -0.945(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_3        |    2.604(R)|      SLOW  |   -1.199(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_4        |    2.239(R)|      SLOW  |   -0.929(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_5        |    2.095(R)|      SLOW  |   -0.838(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_6        |    2.352(R)|      SLOW  |   -0.962(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_7        |    1.936(R)|      SLOW  |   -0.739(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_8        |    1.954(R)|      SLOW  |   -0.813(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_9        |    1.884(R)|      SLOW  |   -0.744(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_10       |    2.100(R)|      SLOW  |   -0.957(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_11       |    3.464(R)|      SLOW  |   -1.692(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_12       |    2.670(R)|      SLOW  |   -1.328(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_13       |    2.679(R)|      SLOW  |   -1.310(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_14       |    2.416(R)|      SLOW  |   -1.057(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_15       |    2.173(R)|      SLOW  |   -0.934(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_16       |    2.883(R)|      SLOW  |   -1.310(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_17       |    2.293(R)|      SLOW  |   -0.932(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_18       |    2.305(R)|      SLOW  |   -0.917(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_19       |    2.237(R)|      SLOW  |   -0.855(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_20       |    2.479(R)|      SLOW  |   -1.079(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_21       |    2.414(R)|      SLOW  |   -0.979(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_22       |    2.518(R)|      SLOW  |   -1.129(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_23       |    2.387(R)|      SLOW  |   -0.987(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_24       |    2.377(R)|      SLOW  |   -1.043(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_25       |    2.885(R)|      SLOW  |   -1.283(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_26       |    2.786(R)|      SLOW  |   -1.209(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_27       |    2.407(R)|      SLOW  |   -1.034(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_28       |    2.522(R)|      SLOW  |   -1.064(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_29       |    2.142(R)|      SLOW  |   -0.923(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_30       |    2.636(R)|      SLOW  |   -1.154(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_31       |    2.446(R)|      SLOW  |   -1.129(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_32       |    2.677(R)|      SLOW  |   -1.172(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_33       |    2.146(R)|      SLOW  |   -0.929(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_34       |    3.094(R)|      SLOW  |   -1.387(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_35       |    2.574(R)|      SLOW  |   -1.141(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_36       |    2.324(R)|      SLOW  |   -0.966(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_37       |    2.347(R)|      SLOW  |   -1.041(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_38       |    2.865(R)|      SLOW  |   -1.234(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_39       |    2.582(R)|      SLOW  |   -1.134(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_40       |    2.667(R)|      SLOW  |   -1.185(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_41       |    2.488(R)|      SLOW  |   -1.099(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_42       |    3.006(R)|      SLOW  |   -1.416(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_43       |    2.311(R)|      SLOW  |   -0.984(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_44       |    2.659(R)|      SLOW  |   -1.211(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_45       |    2.890(R)|      SLOW  |   -1.293(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_46       |    2.684(R)|      SLOW  |   -1.198(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_47       |    2.646(R)|      SLOW  |   -1.157(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_48       |    3.039(R)|      SLOW  |   -1.410(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_49       |    3.004(R)|      SLOW  |   -1.400(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_50       |    3.751(R)|      SLOW  |   -1.825(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_51       |    4.415(R)|      SLOW  |   -2.376(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_52       |    3.199(R)|      SLOW  |   -1.514(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+Arduino_53       |    3.802(R)|      SLOW  |   -1.871(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_in<1>   |    3.440(R)|      SLOW  |   -1.663(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_in<2>   |    3.170(R)|      SLOW  |   -1.544(R)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<0>|    3.179(F)|      SLOW  |   -1.582(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<1>|    2.944(F)|      SLOW  |   -1.380(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<2>|    2.778(F)|      SLOW  |   -1.355(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<3>|    3.532(F)|      SLOW  |   -1.722(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<4>|    3.330(F)|      SLOW  |   -1.666(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<5>|    3.067(F)|      SLOW  |   -1.436(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<6>|    3.203(F)|      SLOW  |   -1.578(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+ext_pins_inout<7>|    2.738(F)|      SLOW  |   -1.248(F)|      FAST  |XLXI_51/sram_wb_clk_i|   0.000|
+-----------------+------------+------------+------------+------------+---------------------+--------+
+
+Clock ext_pins_in<0> to Pad
+-----------------+-----------------+------------+-----------------+------------+----------------------+--------+
+                 |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination      |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+-----------------+-----------------+------------+-----------------+------------+----------------------+--------+
+Arduino_0        |         7.603(R)|      SLOW  |         3.564(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_1        |         7.859(R)|      SLOW  |         3.661(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_2        |         7.770(R)|      SLOW  |         3.659(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_11       |        10.366(R)|      SLOW  |         4.662(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_12       |         8.469(R)|      SLOW  |         4.040(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_13       |         8.752(R)|      SLOW  |         4.035(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_14       |         8.881(R)|      SLOW  |         4.174(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_15       |         8.824(R)|      SLOW  |         4.158(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_16       |         8.391(R)|      SLOW  |         3.686(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_17       |         8.443(R)|      SLOW  |         3.798(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_18       |         8.284(R)|      SLOW  |         3.681(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_19       |         8.105(R)|      SLOW  |         3.409(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_20       |         7.670(R)|      SLOW  |         3.549(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_21       |         7.887(R)|      SLOW  |         3.580(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_22       |         7.730(R)|      SLOW  |         3.593(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_23       |         7.745(R)|      SLOW  |         3.607(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_24       |         8.312(R)|      SLOW  |         3.648(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_25       |         8.083(R)|      SLOW  |         3.593(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_26       |         8.061(R)|      SLOW  |         3.705(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_27       |         8.061(R)|      SLOW  |         3.523(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_28       |         7.905(R)|      SLOW  |         3.655(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_29       |         8.076(R)|      SLOW  |         3.617(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_30       |         8.100(R)|      SLOW  |         3.533(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_31       |         8.038(R)|      SLOW  |         3.533(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_32       |         7.844(R)|      SLOW  |         3.412(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_33       |         8.049(R)|      SLOW  |         3.515(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_34       |         8.313(R)|      SLOW  |         3.631(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_35       |         8.360(R)|      SLOW  |         3.623(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_36       |         7.488(R)|      SLOW  |         3.328(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_37       |         7.662(R)|      SLOW  |         3.518(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_38       |         8.626(R)|      SLOW  |         4.025(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_39       |         8.647(R)|      SLOW  |         4.041(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_40       |         8.882(R)|      SLOW  |         4.292(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_41       |         9.030(R)|      SLOW  |         4.292(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_42       |         8.786(R)|      SLOW  |         4.234(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_43       |         8.890(R)|      SLOW  |         4.234(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_44       |         8.820(R)|      SLOW  |         4.113(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_45       |         9.201(R)|      SLOW  |         4.277(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_46       |         9.201(R)|      SLOW  |         4.228(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_47       |         8.824(R)|      SLOW  |         4.130(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_48       |         8.722(R)|      SLOW  |         4.044(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_49       |         9.157(R)|      SLOW  |         4.391(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_50       |         9.314(R)|      SLOW  |         4.375(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_51       |         9.448(R)|      SLOW  |         4.585(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_52       |         9.637(R)|      SLOW  |         4.604(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+Arduino_53       |        10.293(R)|      SLOW  |         4.759(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_inout<0>|         8.472(R)|      SLOW  |         2.150(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_inout<1>|         8.472(R)|      SLOW  |         2.150(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_inout<2>|         8.283(R)|      SLOW  |         2.150(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_inout<3>|         8.283(R)|      SLOW  |         2.150(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_inout<4>|         7.797(R)|      SLOW  |         2.150(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_inout<5>|         7.797(R)|      SLOW  |         2.150(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_inout<6>|         8.037(R)|      SLOW  |         2.150(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_inout<7>|         8.037(R)|      SLOW  |         2.150(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<19> |         6.282(R)|      SLOW  |         2.434(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<20> |         6.352(R)|      SLOW  |         2.515(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+                 |         6.289(R)|      SLOW  |         2.436(R)|      FAST  |XLXI_51/sysclk_sram_we|   0.000|
+ext_pins_out<21> |         6.219(R)|      SLOW  |         2.371(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<22> |         8.605(R)|      SLOW  |         4.009(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<23> |         8.104(R)|      SLOW  |         3.707(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<24> |         9.626(R)|      SLOW  |         4.667(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<25> |         7.866(R)|      SLOW  |         3.604(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<50> |         6.354(R)|      SLOW  |         2.511(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<51> |         6.354(R)|      SLOW  |         2.511(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<52> |         6.357(R)|      SLOW  |         2.514(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<53> |         6.357(R)|      SLOW  |         2.514(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<54> |         6.360(R)|      SLOW  |         2.517(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<55> |         6.352(R)|      SLOW  |         2.509(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<56> |         6.364(R)|      SLOW  |         2.521(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<57> |         6.364(R)|      SLOW  |         2.521(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<58> |         6.441(R)|      SLOW  |         2.598(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<59> |         6.491(R)|      SLOW  |         2.648(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<60> |         6.441(R)|      SLOW  |         2.598(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<61> |         6.441(R)|      SLOW  |         2.598(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<62> |         6.441(R)|      SLOW  |         2.598(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<63> |         6.363(R)|      SLOW  |         2.520(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<64> |         6.363(R)|      SLOW  |         2.520(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<65> |         6.297(R)|      SLOW  |         2.454(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<66> |         6.302(R)|      SLOW  |         2.459(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<67> |         6.362(R)|      SLOW  |         2.519(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<68> |         6.362(R)|      SLOW  |         2.519(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<69> |         6.441(R)|      SLOW  |         2.598(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+ext_pins_out<70> |         6.302(R)|      SLOW  |         2.459(R)|      FAST  |XLXI_51/sram_wb_clk_i |   0.000|
+-----------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock to Setup on destination clock ext_pins_in<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ext_pins_in<0> |    9.513|    2.587|         |    2.622|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DUO_SW1        |ARD_RESET      |   10.267|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Apr 12 20:02:37 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 181 MB
+
+
+

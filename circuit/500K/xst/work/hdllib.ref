@@ -1,0 +1,4 @@
+AR quadrature_decoder behavioral C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/500K/Quadrature_decoder.vhf sub00/vhpl01 1428858606
+AR papilio_one_500k behavioral C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/500K/Papilio_One_500K.vhf sub00/vhpl03 1428858608
+EN quadrature_decoder NULL C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/500K/Quadrature_decoder.vhf sub00/vhpl00 1428858605
+EN papilio_one_500k NULL C:/Users/kr/Documents/DesignLab/libraries/Quadrature_decoder/circuit/500K/Papilio_One_500K.vhf sub00/vhpl02 1428858607

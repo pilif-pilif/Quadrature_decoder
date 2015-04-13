@@ -1,0 +1,1221 @@
+Release 14.2 - xst P.28xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Reading design: Papilio_Pro.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Papilio_Pro.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Papilio_Pro"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-tqg144
+
+---- Source Options
+Top Module Name                    : Papilio_Pro
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"../../../../../../../../DesignLab-1.0.5/libraries/AVR_Wishbone_Bridge" "../../../../../../../../DesignLab-1.0.5/libraries/Benchy" "../../../../../../../../DesignLab-1.0.5/libraries/BitCoin_Miner" "../../../../../../../../DesignLab-1.0.5/libraries/Building_Blocks" "../../../../../../../../DesignLab-1.0.5/libraries/Clocks" "../../../../../../../../DesignLab-1.0.5/libraries/Gameduino" "../../../../../../../../DesignLab-1.0.5/libraries/HQVGA" "../../../../../../../../DesignLab-1.0.5/libraries/Papilio_Hardware" "../../../../../../../../DesignLab-1.0.5/libraries/VGA_ZPUino" "../../../../../../../../DesignLab-1.0.5/libraries/VGA_ZXSpectrum" "../../../../../../../../DesignLab-1.0.5/libraries/ZPUino_2" "../../../../../../../../DesignLab-1.0.5/libraries/ZPUino_Wishbone_Peripherals" "../.."  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\DesignLab-1.0.5\examples\00.Papilio_Schematic_Library\Libraries\ZPUino_1\PSL_Papilio_Pro_LX9\zpu_config.vhd" into library work
+Parsing package <zpu_config>.
+Parsing VHDL file "C:\DesignLab-1.0.5\libraries\ZPUino_2\sdram_hamster.vhd" into library DesignLab
+Parsing entity <sdram_controller>.
+Parsing architecture <rtl> of entity <sdram_controller>.
+Parsing VHDL file "C:\DesignLab-1.0.5\examples\00.Papilio_Schematic_Library\Libraries\ZPUino_1\PSL_Papilio_Pro_LX9\zpupkg.vhd" into library work
+Parsing package <zpupkg>.
+Parsing VHDL file "C:\DesignLab-1.0.5\examples\00.Papilio_Schematic_Library\Libraries\ZPUino_1\PSL_Papilio_Pro_LX9\zpuino_config.vhd" into library work
+Parsing package <zpuino_config>.
+Parsing VHDL file "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\Q_decoder.vhd" into library DesignLab
+Parsing entity <Q_Decoder>.
+Parsing architecture <Behavioral> of entity <q_decoder>.
+Parsing VHDL file "C:\DesignLab-1.0.5\libraries\ZPUino_Wishbone_Peripherals\Wishbone_to_Registers_x10.vhd" into library DesignLab
+Parsing entity <Wishbone_to_Registers_x10>.
+Parsing architecture <rtl> of entity <wishbone_to_registers_x10>.
+Parsing VHDL file "C:\DesignLab-1.0.5\libraries\ZPUino_2\sdram_wrap.vhd" into library DesignLab
+Parsing entity <sdram_ctrl>.
+Parsing architecture <behave> of entity <sdram_ctrl>.
+Parsing VHDL file "C:\DesignLab-1.0.5\libraries\ZPUino_2\pad.vhd" into library DesignLab
+Parsing package <pad>.
+Parsing entity <isync>.
+Parsing architecture <behave> of entity <isync>.
+Parsing entity <iopad>.
+Parsing architecture <behave> of entity <iopad>.
+Parsing entity <ipad>.
+Parsing architecture <behave> of entity <ipad>.
+Parsing entity <opad>.
+Parsing architecture <behave> of entity <opad>.
+Parsing VHDL file "C:\DesignLab-1.0.5\examples\00.Papilio_Schematic_Library\Libraries\ZPUino_1\PSL_Papilio_Pro_LX9\zpuinopkg.vhd" into library work
+Parsing package <zpuinopkg>.
+Parsing VHDL file "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" into library work
+Parsing entity <Quadrature_decoder>.
+Parsing architecture <BEHAVIORAL> of entity <quadrature_decoder>.
+Parsing VHDL file "C:\DesignLab-1.0.5\libraries\ZPUino_2\ZPUino_Papilio_Pro_V2.vhd" into library DesignLab
+Parsing entity <ZPUino_Papilio_Pro_V2>.
+Parsing architecture <behave> of entity <zpuino_papilio_pro_v2>.
+Parsing VHDL file "C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Wing_GPIO.vhd" into library DesignLab
+Parsing entity <Wing_GPIO>.
+Parsing architecture <Behavioral> of entity <wing_gpio>.
+Parsing VHDL file "C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd" into library DesignLab
+Parsing entity <Papilio_Default_Wing_Pinout>.
+Parsing architecture <BEHAVIORAL> of entity <papilio_default_wing_pinout>.
+Parsing VHDL file "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" into library work
+Parsing entity <Papilio_Pro>.
+Parsing architecture <BEHAVIORAL> of entity <papilio_pro>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Papilio_Pro> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <Wing_GPIO> (architecture <Behavioral>) from library <designlab>.
+
+Elaborating entity <Papilio_Default_Wing_Pinout> (architecture <BEHAVIORAL>) from library <designlab>.
+
+Elaborating entity <iopad> (architecture <behave>) from library <designlab>.
+
+Elaborating entity <isync> (architecture <behave>) from library <designlab>.
+WARNING:HDLCompiler:92 - "C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd" Line 299: gpio_spp_read should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd" Line 300: gpio_spp_read should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd" Line 301: gpio_spp_read should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd" Line 302: gpio_spp_read should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd" Line 303: gpio_spp_read should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd" Line 304: gpio_spp_read should be on the sensitivity list of the process
+
+Elaborating entity <Quadrature_decoder> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <Wishbone_to_Registers_x10> (architecture <rtl>) from library <designlab>.
+WARNING:HDLCompiler:634 - "C:\DesignLab-1.0.5\libraries\ZPUino_Wishbone_Peripherals\Wishbone_to_Registers_x10.vhd" Line 78: Net <wb_inta_o> does not have a driver.
+
+Elaborating entity <Q_Decoder> (architecture <Behavioral>) from library <designlab>.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" Line 47: Net <XLXI_1_register4_in_openSignal[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" Line 48: Net <XLXI_1_register5_in_openSignal[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" Line 49: Net <XLXI_1_register6_in_openSignal[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" Line 50: Net <XLXI_1_register7_in_openSignal[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" Line 51: Net <XLXI_1_register8_in_openSignal[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" Line 52: Net <XLXI_1_register9_in_openSignal[31]> does not have a driver.
+
+Elaborating entity <ZPUino_Papilio_Pro_V2> (architecture <behave>) from library <designlab>.
+WARNING:HDLCompiler:89 - "C:\DesignLab-1.0.5\libraries\ZPUino_2\ZPUino_Papilio_Pro_V2.vhd" Line 174: <zpuino_papilio_pro_v2_blackbox> remains a black-box since it has no binding entity.
+
+Elaborating entity <sdram_ctrl> (architecture <behave>) from library <designlab>.
+
+Elaborating entity <sdram_controller> (architecture <rtl>) with generics from library <designlab>.
+WARNING:HDLCompiler:1127 - "C:\DesignLab-1.0.5\libraries\ZPUino_2\sdram_hamster.vhd" Line 251: Assignment to debug_cmd ignored, since the identifier is never used
+WARNING:HDLCompiler:92 - "C:\DesignLab-1.0.5\libraries\ZPUino_2\sdram_hamster.vhd" Line 340: data_mask should be on the sensitivity list of the process
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 116: Net <XLXI_38_Flex_Pin_out_0_openSignal> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 117: Net <XLXI_38_Flex_Pin_out_1_openSignal> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 118: Net <XLXI_38_Flex_Pin_out_2_openSignal> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 119: Net <XLXI_38_Flex_Pin_out_3_openSignal> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 120: Net <XLXI_38_Flex_Pin_out_4_openSignal> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 121: Net <XLXI_38_Flex_Pin_out_5_openSignal> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 122: Net <XLXI_51_wishbone_slot_video_in_openSignal[100]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 124: Net <XLXI_51_wishbone_slot_6_out_openSignal[100]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 126: Net <XLXI_51_wishbone_slot_8_out_openSignal[100]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 128: Net <XLXI_51_wishbone_slot_9_out_openSignal[100]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 130: Net <XLXI_51_wishbone_slot_10_out_openSignal[100]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 132: Net <XLXI_51_wishbone_slot_11_out_openSignal[100]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 134: Net <XLXI_51_wishbone_slot_12_out_openSignal[100]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 136: Net <XLXI_51_wishbone_slot_13_out_openSignal[100]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 138: Net <XLXI_51_wishbone_slot_14_out_openSignal[100]> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Papilio_Pro>.
+    Related source file is "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf".
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 292: Output port <Flex_Pin_in_0> of the instance <XLXI_38> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 292: Output port <Flex_Pin_in_1> of the instance <XLXI_38> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 292: Output port <Flex_Pin_in_2> of the instance <XLXI_38> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 292: Output port <Flex_Pin_in_3> of the instance <XLXI_38> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 292: Output port <Flex_Pin_in_4> of the instance <XLXI_38> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 292: Output port <Flex_Pin_in_5> of the instance <XLXI_38> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 381: Output port <wishbone_slot_video_out> of the instance <XLXI_51> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 381: Output port <wishbone_slot_6_in> of the instance <XLXI_51> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 381: Output port <wishbone_slot_8_in> of the instance <XLXI_51> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 381: Output port <wishbone_slot_9_in> of the instance <XLXI_51> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 381: Output port <wishbone_slot_10_in> of the instance <XLXI_51> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 381: Output port <wishbone_slot_11_in> of the instance <XLXI_51> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 381: Output port <wishbone_slot_12_in> of the instance <XLXI_51> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 381: Output port <wishbone_slot_13_in> of the instance <XLXI_51> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 381: Output port <wishbone_slot_14_in> of the instance <XLXI_51> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 381: Output port <clk_1Mhz> of the instance <XLXI_51> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" line 381: Output port <clk_osc_32Mhz> of the instance <XLXI_51> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <XLXI_51_wishbone_slot_video_in_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_51_wishbone_slot_6_out_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_51_wishbone_slot_8_out_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_51_wishbone_slot_9_out_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_51_wishbone_slot_10_out_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_51_wishbone_slot_11_out_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_51_wishbone_slot_12_out_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_51_wishbone_slot_13_out_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_51_wishbone_slot_14_out_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_38_Flex_Pin_out_0_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_38_Flex_Pin_out_1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_38_Flex_Pin_out_2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_38_Flex_Pin_out_3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_38_Flex_Pin_out_4_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_38_Flex_Pin_out_5_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <Papilio_Pro> synthesized.
+
+Synthesizing Unit <Wing_GPIO>.
+    Related source file is "C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Wing_GPIO.vhd".
+    Summary:
+	no macro.
+Unit <Wing_GPIO> synthesized.
+
+Synthesizing Unit <Papilio_Default_Wing_Pinout>.
+    Related source file is "C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd".
+WARNING:Xst:647 - Input <gpio_bus_out<200:148>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <gpio_bus_in<200:98>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <gpio_bus_in<48>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <Papilio_Default_Wing_Pinout> synthesized.
+
+Synthesizing Unit <iopad>.
+    Related source file is "C:\DesignLab-1.0.5\libraries\ZPUino_2\pad.vhd".
+    Found 1-bit tristate buffer for signal <PAD> created at line 155
+    Summary:
+	inferred   1 Tristate(s).
+Unit <iopad> synthesized.
+
+Synthesizing Unit <isync>.
+    Related source file is "C:\DesignLab-1.0.5\libraries\ZPUino_2\pad.vhd".
+    Summary:
+	no macro.
+Unit <isync> synthesized.
+
+Synthesizing Unit <Quadrature_decoder>.
+    Related source file is "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf".
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" line 95: Output port <register0_out> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" line 95: Output port <register1_out> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" line 95: Output port <register2_out> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" line 95: Output port <register3_out> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" line 95: Output port <register4_out> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" line 95: Output port <register5_out> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" line 95: Output port <register6_out> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" line 95: Output port <register7_out> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" line 95: Output port <register8_out> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" line 95: Output port <register9_out> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <XLXI_1_register4_in_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_1_register5_in_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_1_register6_in_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_1_register7_in_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_1_register8_in_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <XLXI_1_register9_in_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <Quadrature_decoder> synthesized.
+
+Synthesizing Unit <Wishbone_to_Registers_x10>.
+    Related source file is "C:\DesignLab-1.0.5\libraries\ZPUino_Wishbone_Peripherals\Wishbone_to_Registers_x10.vhd".
+WARNING:Xst:647 - Input <wishbone_in<100:62>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <wishbone_out<100:34>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <wb_inta_o> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 32-bit register for signal <register1_out>.
+    Found 32-bit register for signal <register2_out>.
+    Found 32-bit register for signal <register3_out>.
+    Found 32-bit register for signal <register4_out>.
+    Found 32-bit register for signal <register5_out>.
+    Found 32-bit register for signal <register6_out>.
+    Found 32-bit register for signal <register7_out>.
+    Found 32-bit register for signal <register8_out>.
+    Found 32-bit register for signal <register9_out>.
+    Found 32-bit register for signal <register0_out>.
+    Summary:
+	inferred 320 D-type flip-flop(s).
+	inferred   5 Multiplexer(s).
+Unit <Wishbone_to_Registers_x10> synthesized.
+
+Synthesizing Unit <Q_Decoder>.
+    Related source file is "C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\Q_decoder.vhd".
+    Found 3-bit register for signal <QuadB_Delayed>.
+    Found 32-bit register for signal <Count>.
+    Found 32-bit register for signal <Position>.
+    Found 3-bit register for signal <QuadA_Delayed_s>.
+    Found 3-bit register for signal <QuadB_Delayed_s>.
+    Found 32-bit register for signal <Count_s>.
+    Found 32-bit register for signal <Position_s>.
+    Found 3-bit register for signal <QuadA_Delayed_t>.
+    Found 3-bit register for signal <QuadB_Delayed_t>.
+    Found 32-bit register for signal <Count_t>.
+    Found 32-bit register for signal <Position_t>.
+    Found 3-bit register for signal <QuadA_Delayed_f>.
+    Found 3-bit register for signal <QuadB_Delayed_f>.
+    Found 32-bit register for signal <Count_f>.
+    Found 32-bit register for signal <Position_f>.
+    Found 3-bit register for signal <QuadA_Delayed>.
+    Found 32-bit adder for signal <Count[31]_GND_16_o_add_0_OUT> created at line 1253.
+    Found 32-bit adder for signal <Count_s[31]_GND_16_o_add_9_OUT> created at line 1253.
+    Found 32-bit adder for signal <Count_t[31]_GND_16_o_add_18_OUT> created at line 1253.
+    Found 32-bit adder for signal <Count_f[31]_GND_16_o_add_27_OUT> created at line 1253.
+    Found 32-bit subtractor for signal <Count[31]_GND_16_o_sub_2_OUT<31:0>> created at line 1320.
+    Found 32-bit subtractor for signal <Count_s[31]_GND_16_o_sub_11_OUT<31:0>> created at line 1320.
+    Found 32-bit subtractor for signal <Count_t[31]_GND_16_o_sub_20_OUT<31:0>> created at line 1320.
+    Found 32-bit subtractor for signal <Count_f[31]_GND_16_o_sub_29_OUT<31:0>> created at line 1320.
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred 280 D-type flip-flop(s).
+Unit <Q_Decoder> synthesized.
+
+Synthesizing Unit <ZPUino_Papilio_Pro_V2>.
+    Related source file is "C:\DesignLab-1.0.5\libraries\ZPUino_2\ZPUino_Papilio_Pro_V2.vhd".
+WARNING:Xst:647 - Input <ext_pins_in<100:3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal ext_pins_inout<15:0> may hinder XST clustering optimizations.
+    Summary:
+	no macro.
+Unit <ZPUino_Papilio_Pro_V2> synthesized.
+
+Synthesizing Unit <sdram_ctrl>.
+    Related source file is "C:\DesignLab-1.0.5\libraries\ZPUino_2\sdram_wrap.vhd".
+WARNING:Xst:647 - Input <wb_adr_i<26:23>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32-bit register for signal <wb_dat_o>.
+    Found 1-bit register for signal <wb_ack_o>.
+    Summary:
+	inferred  33 D-type flip-flop(s).
+Unit <sdram_ctrl> synthesized.
+
+Synthesizing Unit <sdram_controller>.
+    Related source file is "C:\DesignLab-1.0.5\libraries\ZPUino_2\sdram_hamster.vhd".
+        HIGH_BIT = 22
+        MHZ = 96
+        REFRESH_CYCLES = 4096
+        ADDRESS_BITS = 12
+    Set property "fsm_encoding = user" for signal <rstate>.
+    Set property "fsm_encoding = user" for signal <nstate>.
+    Set property "IOB = TRUE" for signal <rdata_write>.
+    Set property "IOB = TRUE" for signal <captured>.
+    Set property "IOB = TRUE" for signal <i_DRAM_ADDR>.
+    Set property "IOB = TRUE" for signal <i_DRAM_BA>.
+    Set property "IOB = TRUE" for signal <i_DRAM_DQM>.
+    Set property "IOB = TRUE" for signal <i_DRAM_CS_N>.
+    Set property "IOB = TRUE" for signal <i_DRAM_RAS_N>.
+    Set property "IOB = TRUE" for signal <i_DRAM_CAS_N>.
+    Set property "IOB = TRUE" for signal <i_DRAM_WE_N>.
+    Found 12-bit register for signal <r_address>.
+    Found 2-bit register for signal <r_bank>.
+    Found 15-bit register for signal <r_init_counter>.
+    Found 32-bit register for signal <r_rf_counter>.
+    Found 1-bit register for signal <r_rf_pending>.
+    Found 1-bit register for signal <r_rd_pending>.
+    Found 1-bit register for signal <r_wr_pending>.
+    Found 12-bit register for signal <r_act_row>.
+    Found 2-bit register for signal <r_act_ba>.
+    Found 16-bit register for signal <r_data_out_low>.
+    Found 21-bit register for signal <r_req_addr_q>.
+    Found 32-bit register for signal <r_req_data_write>.
+    Found 4-bit register for signal <r_req_mask>.
+    Found 1-bit register for signal <r_data_out_valid>.
+    Found 2-bit register for signal <r_dq_masks>.
+    Found 1-bit register for signal <r_tristate>.
+    Found 16-bit register for signal <rdata_write>.
+    Found 16-bit register for signal <captured>.
+    Found 9-bit register for signal <rstate>.
+INFO:Xst:1799 - State 111100111 is never reached in FSM <rstate>.
+INFO:Xst:1799 - State 111110111 is never reached in FSM <rstate>.
+    Found finite state machine <FSM_0> for signal <rstate>.
+    -----------------------------------------------------------------------
+    | States             | 29                                             |
+    | Transitions        | 88                                             |
+    | Inputs             | 13                                             |
+    | Outputs            | 11                                             |
+    | Clock              | clock_100 (rising_edge)                        |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000000000                                      |
+    | Encoding           | user                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 32-bit adder for signal <r_rf_counter[31]_GND_23_o_add_22_OUT> created at line 353.
+    Found 15-bit subtractor for signal <n_init_counter> created at line 78.
+    Found 1-bit tristate buffer for signal <DRAM_DQ<15>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<14>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<13>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<12>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<11>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<10>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<9>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<8>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<7>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<6>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<5>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<4>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<3>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<2>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<1>> created at line 316
+    Found 1-bit tristate buffer for signal <DRAM_DQ<0>> created at line 316
+    Found 2-bit comparator equal for signal <addr_bank[1]_r_bank[1]_equal_45_o> created at line 451
+    Found 12-bit comparator equal for signal <r_act_row[11]_addr_row[11]_equal_74_o> created at line 614
+    Found 2-bit comparator equal for signal <r_act_ba[1]_addr_bank[1]_equal_75_o> created at line 614
+INFO:Xst:2774 - HDL ADVISOR - IOB property attached to signal r_bank may hinder XST clustering optimizations.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred 187 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred  37 Multiplexer(s).
+	inferred  16 Tristate(s).
+	inferred   1 Finite State Machine(s).
+Unit <sdram_controller> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 15-bit subtractor                                     : 1
+ 32-bit adder                                          : 1
+ 32-bit addsub                                         : 4
+# Registers                                            : 46
+ 1-bit register                                        : 6
+ 12-bit register                                       : 2
+ 15-bit register                                       : 1
+ 16-bit register                                       : 3
+ 2-bit register                                        : 3
+ 21-bit register                                       : 1
+ 3-bit register                                        : 8
+ 32-bit register                                       : 21
+ 4-bit register                                        : 1
+# Comparators                                          : 3
+ 12-bit comparator equal                               : 1
+ 2-bit comparator equal                                : 2
+# Multiplexers                                         : 42
+ 1-bit 2-to-1 multiplexer                              : 10
+ 12-bit 2-to-1 multiplexer                             : 14
+ 16-bit 2-to-1 multiplexer                             : 1
+ 2-bit 2-to-1 multiplexer                              : 10
+ 32-bit 2-to-1 multiplexer                             : 7
+# Tristates                                            : 64
+ 1-bit tristate buffer                                 : 64
+# FSMs                                                 : 1
+# Xors                                                 : 8
+ 1-bit xor2                                            : 4
+ 1-bit xor4                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <../../../../../../../../DesignLab-1.0.5/libraries/ZPUino_2/ZPUino_Papilio_Pro_V2_blackbox.ngc>.
+Loading core <ZPUino_Papilio_Pro_V2_blackbox> for timing and area information for instance <Inst_ZPUino_Papilio_Pro_V2_blackbox>.
+
+Synthesizing (advanced) Unit <Q_Decoder>.
+The following registers are absorbed into counter <Count>: 1 register on signal <Count>.
+The following registers are absorbed into counter <Count_s>: 1 register on signal <Count_s>.
+The following registers are absorbed into counter <Count_f>: 1 register on signal <Count_f>.
+The following registers are absorbed into counter <Count_t>: 1 register on signal <Count_t>.
+Unit <Q_Decoder> synthesized (advanced).
+
+Synthesizing (advanced) Unit <sdram_controller>.
+The following registers are absorbed into counter <r_init_counter>: 1 register on signal <r_init_counter>.
+Unit <sdram_controller> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Counters                                             : 5
+ 15-bit down counter                                   : 1
+ 32-bit updown counter                                 : 4
+# Registers                                            : 773
+ Flip-Flops                                            : 773
+# Comparators                                          : 3
+ 12-bit comparator equal                               : 1
+ 2-bit comparator equal                                : 2
+# Multiplexers                                         : 42
+ 1-bit 2-to-1 multiplexer                              : 10
+ 12-bit 2-to-1 multiplexer                             : 14
+ 16-bit 2-to-1 multiplexer                             : 1
+ 2-bit 2-to-1 multiplexer                              : 10
+ 32-bit 2-to-1 multiplexer                             : 7
+# FSMs                                                 : 1
+# Xors                                                 : 8
+ 1-bit xor2                                            : 4
+ 1-bit xor4                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Optimizing FSM <XLXI_51/sram_inst/ctrl/FSM_0> on signal <rstate[1:9]> with user encoding.
+------------------------
+ State     | Encoding
+------------------------
+ 000000000 | 000000000
+ 000000111 | 000000111
+ 000000010 | 000000010
+ 000000001 | 000000001
+ 000010111 | 000010111
+ 010000011 | 010000011
+ 000100001 | 000100001
+ 000110111 | 000110111
+ 001000111 | 001000111
+ 001010111 | 001010111
+ 001100111 | 001100111
+ 001110111 | 001110111
+ 010010111 | 010010111
+ 010100111 | 010100111
+ 010110010 | 010110010
+ 100010101 | 100010101
+ 011010100 | 011010100
+ 011000111 | 011000111
+ 100000100 | 100000100
+ 011110111 | 011110111
+ 100100101 | 100100101
+ 100110111 | 100110111
+ 101000101 | 101000101
+ 110000111 | 110000111
+ 101010101 | 101010101
+ 101110111 | 101110111
+ 101100101 | 101100101
+ 111100111 | unreached
+ 111110111 | unreached
+------------------------
+WARNING:Xst:2042 - Unit Papilio_Default_Wing_Pinout: 8 internal tristates are replaced by logic (pull-up yes): WingType_mosi_AL<0>, WingType_mosi_AL<1>, WingType_mosi_AL<2>, WingType_mosi_AL<3>, WingType_mosi_AL<4>, WingType_mosi_AL<5>, WingType_mosi_AL<6>, WingType_mosi_AL<7>.
+
+Optimizing unit <Papilio_Pro> ...
+
+Optimizing unit <Wishbone_to_Registers_x10> ...
+
+Optimizing unit <Q_Decoder> ...
+
+Optimizing unit <Papilio_Default_Wing_Pinout> ...
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_31> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_30> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_29> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_28> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_27> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_26> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_25> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_24> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_23> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_22> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_21> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_20> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_19> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_18> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_17> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_16> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_15> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_14> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_13> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_12> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_11> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_10> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_9> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_8> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_7> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_6> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_5> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_4> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_3> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_2> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_1> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register0_out_0> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_31> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_30> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_29> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_28> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_27> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_26> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_25> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_24> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_23> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_22> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_21> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_20> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_19> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_18> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_17> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_16> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_15> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_14> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_13> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_12> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_11> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_10> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_9> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_8> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_7> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_6> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_5> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_4> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_3> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_2> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_1> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register9_out_0> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_31> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_30> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_29> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_28> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_27> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_26> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_25> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_24> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_23> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_22> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_21> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_20> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_19> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_18> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_17> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_16> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_15> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_14> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_13> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_12> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_11> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_10> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_9> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_8> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_7> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_6> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_5> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_4> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_3> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_2> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_1> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register8_out_0> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_31> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_30> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_29> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_28> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_27> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_26> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_25> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_24> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_23> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_22> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_21> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_20> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_19> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_18> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_17> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_16> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_15> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_14> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_13> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_12> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_11> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_10> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_9> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_8> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_7> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_6> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_5> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_4> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_3> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_2> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_1> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register7_out_0> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_31> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_30> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_29> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_28> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_27> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_26> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_25> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_24> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_23> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_22> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_21> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_20> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_19> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_18> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_17> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_16> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_15> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_14> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_13> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_12> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_11> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_10> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_9> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_8> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_7> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_6> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_5> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_4> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_3> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_2> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_1> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register6_out_0> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_31> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_30> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_29> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_28> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_27> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_26> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_25> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_24> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_23> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_22> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_21> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_20> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_19> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_18> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_17> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_16> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_15> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_14> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_13> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_12> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_11> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_10> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_9> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_8> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_7> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_6> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_5> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_4> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_3> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_2> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_1> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register5_out_0> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_31> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_30> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_29> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_28> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_27> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_26> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_25> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_24> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_23> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_22> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_21> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_20> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_19> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_18> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_17> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_16> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_15> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_14> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_13> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_12> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_11> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_10> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_9> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_8> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_7> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_6> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_5> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_4> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_3> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_2> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_1> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register4_out_0> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_31> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_30> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_29> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_28> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_27> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_26> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_25> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_24> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_23> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_22> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_21> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_20> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_19> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_18> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_17> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_16> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_15> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_14> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_13> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_12> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_11> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_10> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_9> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_8> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_7> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_6> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_5> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_4> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_3> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_2> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_1> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register3_out_0> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_31> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_30> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_29> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_28> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_27> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_26> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_25> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_24> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_23> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_22> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_21> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_20> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_19> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_18> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_17> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_16> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_15> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_14> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_13> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_12> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_11> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_10> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_9> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_8> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_7> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_6> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_5> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_4> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_3> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_2> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_1> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register2_out_0> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_31> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_30> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_29> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_28> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_27> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_26> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_25> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_24> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_23> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_22> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_21> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_20> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_19> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_18> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_17> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_16> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_15> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_14> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_13> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_12> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_11> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_10> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_9> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_8> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_7> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_6> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_5> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_4> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_3> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_2> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_1> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst:2677 - Node <XLXI_41/XLXI_1/register1_out_0> of sequential type is unconnected in block <Papilio_Pro>.
+WARNING:Xst - Edge ext_pins_inout<100> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<99> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<98> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<97> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<96> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<95> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<94> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<93> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<92> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<91> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<90> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<89> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<88> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<87> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<86> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<85> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<84> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<83> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<82> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<81> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<80> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<79> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<78> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<77> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<76> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<75> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<74> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<73> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<72> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<71> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<70> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<69> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<68> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<67> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<66> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<65> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<64> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<63> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<62> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<61> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<60> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<59> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<58> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<57> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<56> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<55> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<54> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<53> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<52> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<51> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<50> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<49> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<48> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<47> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<46> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<45> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<44> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<43> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<42> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<41> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<40> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<39> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<38> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<37> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<36> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<35> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<34> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<33> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<32> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<31> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<30> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<29> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<28> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<27> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<26> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<25> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<24> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<23> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<22> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<21> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<20> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<19> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<18> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<17> has no source ports and will not be translated to ABC.WARNING:Xst - Edge ext_pins_inout<16> has no source ports and will not be translated to ABC.WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_11> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_12> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_13> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_14> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_15> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_16> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_17> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_18> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_19> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_20> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_21> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_22> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_23> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_24> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_25> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_26> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_27> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_28> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_29> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_51/sram_inst/ctrl/r_rf_counter_30> has a constant value of 0 in block <Papilio_Pro>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Papilio_Pro, actual ratio is 52.
+INFO:Xst:2260 - The FF/Latch <zpuino/core/exr_state_FSM_FFd3> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following 2 FFs/Latches : <zpuino/core/exr_state_FSM_FFd3_1> <zpuino/core/exr_state_FSM_FFd3_2> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/cache/stb> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/core/cache/cyc> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/lsu/r_addr_27> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/core/lsu/r_addr_27_1> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/exr_state_FSM_FFd4> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following 2 FFs/Latches : <zpuino/core/exr_state_FSM_FFd4_1> <zpuino/core/exr_state_FSM_FFd4_2> 
+INFO:Xst:2260 - The FF/Latch <timers_inst/timer0_inst/tmrr_presrst> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <timers_inst/timer1_inst/tmrr_presrst> 
+INFO:Xst:2260 - The FF/Latch <slot4/wb_ack_o> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <slot4/trans> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/exr_tos_31> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/core/exr_tos_31_1> 
+INFO:Xst:2260 - The FF/Latch <zpuino/memarb/current_master> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/memarb/current_master_1> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/prefr_decodedOpcode_2> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/core/prefr_decodedOpcode_2_1> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/prefr_decodedOpcode_4> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/core/prefr_decodedOpcode_4_1> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/exr_state_FSM_FFd1> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following 2 FFs/Latches : <zpuino/core/exr_state_FSM_FFd1_1> <zpuino/core/exr_state_FSM_FFd1_2> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/exr_state_FSM_FFd2> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following 2 FFs/Latches : <zpuino/core/exr_state_FSM_FFd2_1> <zpuino/core/exr_state_FSM_FFd2_2> 
+INFO:Xst:2260 - The FF/Latch <zpuino/memarb2/current_master> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/memarb2/current_master_1> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/exr_state_FSM_FFd3> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following 2 FFs/Latches : <zpuino/core/exr_state_FSM_FFd3_1> <zpuino/core/exr_state_FSM_FFd3_2> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/cache/stb> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/core/cache/cyc> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/lsu/r_addr_27> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/core/lsu/r_addr_27_1> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/exr_state_FSM_FFd4> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following 2 FFs/Latches : <zpuino/core/exr_state_FSM_FFd4_1> <zpuino/core/exr_state_FSM_FFd4_2> 
+INFO:Xst:2260 - The FF/Latch <timers_inst/timer0_inst/tmrr_presrst> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <timers_inst/timer1_inst/tmrr_presrst> 
+INFO:Xst:2260 - The FF/Latch <slot4/wb_ack_o> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <slot4/trans> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/exr_tos_31> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/core/exr_tos_31_1> 
+INFO:Xst:2260 - The FF/Latch <zpuino/memarb/current_master> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/memarb/current_master_1> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/prefr_decodedOpcode_2> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/core/prefr_decodedOpcode_2_1> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/prefr_decodedOpcode_4> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/core/prefr_decodedOpcode_4_1> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/exr_state_FSM_FFd1> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following 2 FFs/Latches : <zpuino/core/exr_state_FSM_FFd1_1> <zpuino/core/exr_state_FSM_FFd1_2> 
+INFO:Xst:2260 - The FF/Latch <zpuino/core/exr_state_FSM_FFd2> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following 2 FFs/Latches : <zpuino/core/exr_state_FSM_FFd2_1> <zpuino/core/exr_state_FSM_FFd2_2> 
+INFO:Xst:2260 - The FF/Latch <zpuino/memarb2/current_master> in Unit <XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox> is equivalent to the following FF/Latch : <zpuino/memarb2/current_master_1> 
+Replicating register XLXI_51/sram_inst/ctrl/rstate_FSM_FFd9 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/rstate_FSM_FFd7 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/rstate_FSM_FFd8 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_bank_1 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_bank_0 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_address_11 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_address_10 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_address_9 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_address_8 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_address_7 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_address_6 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_address_5 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_address_4 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_address_3 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_address_2 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_address_1 to handle IOB=TRUE attribute
+Replicating register XLXI_51/sram_inst/ctrl/r_address_0 to handle IOB=TRUE attribute
+
+
+Final Macro Processing ...
+
+Processing Unit <Papilio_Pro> :
+	Found 2-bit shift register for signal <XLXI_41/XLXI_2/QuadA_Delayed_1>.
+	Found 2-bit shift register for signal <XLXI_41/XLXI_2/QuadB_Delayed_f_1>.
+	Found 2-bit shift register for signal <XLXI_41/XLXI_2/QuadB_Delayed_t_1>.
+	Found 2-bit shift register for signal <XLXI_41/XLXI_2/QuadA_Delayed_t_1>.
+	Found 2-bit shift register for signal <XLXI_41/XLXI_2/QuadA_Delayed_f_1>.
+	Found 2-bit shift register for signal <XLXI_41/XLXI_2/QuadA_Delayed_s_1>.
+	Found 2-bit shift register for signal <XLXI_41/XLXI_2/QuadB_Delayed_1>.
+	Found 2-bit shift register for signal <XLXI_41/XLXI_2/QuadB_Delayed_s_1>.
+Unit <Papilio_Pro> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 585
+ Flip-Flops                                            : 585
+# Shift Registers                                      : 8
+ 2-bit shift register                                  : 8
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Papilio_Pro.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 4344
+#      GND                         : 2
+#      INV                         : 47
+#      LUT1                        : 127
+#      LUT2                        : 162
+#      LUT3                        : 655
+#      LUT4                        : 380
+#      LUT5                        : 460
+#      LUT6                        : 1272
+#      MULT_AND                    : 54
+#      MUXCY                       : 520
+#      MUXF7                       : 148
+#      MUXF8                       : 32
+#      VCC                         : 2
+#      XORCY                       : 483
+# FlipFlops/Latches                : 2282
+#      FD                          : 192
+#      FD_1                        : 16
+#      FDE                         : 1262
+#      FDP                         : 2
+#      FDR                         : 227
+#      FDRE                        : 434
+#      FDS                         : 61
+#      FDSE                        : 87
+#      ODDR2                       : 1
+# RAMS                             : 12
+#      RAMB16BWER                  : 11
+#      RAMB8BWER                   : 1
+# Shift Registers                  : 44
+#      SRLC16E                     : 44
+# Clock Buffers                    : 6
+#      BUFG                        : 6
+# IO Buffers                       : 94
+#      IBUF                        : 10
+#      IBUFG                       : 1
+#      IOBUF                       : 56
+#      OBUF                        : 27
+# DCMs                             : 1
+#      DCM_SP                      : 1
+# DSPs                             : 4
+#      DSP48A1                     : 4
+# Others                           : 1
+#      PLL_ADV                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            2231  out of  11440    19%  
+ Number of Slice LUTs:                 3147  out of   5720    55%  
+    Number used as Logic:              3103  out of   5720    54%  
+    Number used as Memory:               44  out of   1440     3%  
+       Number used as SRL:               44
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   4498
+   Number with an unused Flip Flop:    2267  out of   4498    50%  
+   Number with an unused LUT:          1351  out of   4498    30%  
+   Number of fully used LUT-FF pairs:   880  out of   4498    19%  
+   Number of unique control sets:       161
+
+IO Utilization: 
+ Number of IOs:                         351
+ Number of bonded IOBs:                  93  out of    102    91%  
+    IOB Flip Flops/Latches:              51
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               12  out of     32    37%  
+    Number using Block RAM only:         12
+ Number of BUFG/BUFGCTRLs:                6  out of     16    37%  
+ Number of DSP48A1s:                      4  out of     16    25%  
+ Number of PLL_ADVs:                      1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+ext_pins_in<0>                     | PLL_ADV:CLKOUT0        | 2341  |
+ext_pins_in<0>                     | PLL_ADV:CLKOUT1        | 2     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 39.029ns (Maximum Frequency: 25.622MHz)
+   Minimum input arrival time before clock: 2.083ns
+   Maximum output required time after clock: 4.618ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ext_pins_in<0>'
+  Clock period: 39.029ns (frequency: 25.622MHz)
+  Total number of paths / destination ports: 154267 / 5486
+-------------------------------------------------------------------------
+Delay:               13.010ns (Levels of Logic = 3)
+  Source:            XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox/zpuino/core/exr_state_FSM_FFd1 (FF)
+  Destination:       XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox/zpuino/core/shl/Mmult_inputA[31]_inputB[4]_MuLt_2_OUT1 (DSP)
+  Source Clock:      ext_pins_in<0> rising 3.0X
+  Destination Clock: ext_pins_in<0> rising 3.0X
+
+  Data Path: XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox/zpuino/core/exr_state_FSM_FFd1 to XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox/zpuino/core/shl/Mmult_inputA[31]_inputB[4]_MuLt_2_OUT1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q            110   0.525   2.240  zpuino/core/exr_state_FSM_FFd1 (zpuino/core/exr_state_FSM_FFd1)
+     LUT5:I4->O            8   0.254   1.052  zpuino/core/shl/Mmux_inputB[4]_inputB[31]_mux_1_OUT1011 (zpuino/core/shl/Mmux_inputB[4]_inputB[31]_mux_1_OUT101)
+     LUT6:I4->O            1   0.250   0.681  zpuino/core/shl/Mmux_inputB[4]_inputB[31]_mux_1_OUT81 (zpuino/core/shl/inputB[4]_inputB[31]_mux_1_OUT<16>)
+     DSP48A1:B16->BCOUT17    1   2.750   0.681  zpuino/core/shl/Mmult_inputA[31]_inputB[4]_MuLt_2_OUT (zpuino/core/shl/Mmult_inputA[31]_inputB[4]_MuLt_2_OUT_BCOUT_to_Mmult_inputA[31]_inputB[4]_MuLt_2_OUT1_B_17)
+     DSP48A1:B17               4.577          zpuino/core/shl/Mmult_inputA[31]_inputB[4]_MuLt_2_OUT1
+    ----------------------------------------
+    Total                     13.010ns (8.356ns logic, 4.654ns route)
+                                       (64.2% logic, 35.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ext_pins_in<0>'
+  Total number of paths / destination ports: 66 / 66
+-------------------------------------------------------------------------
+Offset:              2.083ns (Levels of Logic = 1)
+  Source:            ext_pins_inout<15> (PAD)
+  Destination:       XLXI_51/sram_inst/ctrl/captured_15 (FF)
+  Destination Clock: ext_pins_in<0> falling 3.0X
+
+  Data Path: ext_pins_inout<15> to XLXI_51/sram_inst/ctrl/captured_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IOBUF:IO->O           1   1.328   0.681  ext_pins_inout_15_IOBUF (N79)
+     FD_1:D                    0.074          XLXI_51/sram_inst/ctrl/captured_15
+    ----------------------------------------
+    Total                      2.083ns (1.402ns logic, 0.681ns route)
+                                       (67.3% logic, 32.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ext_pins_in<0>'
+  Total number of paths / destination ports: 135 / 79
+-------------------------------------------------------------------------
+Offset:              4.618ns (Levels of Logic = 1)
+  Source:            XLXI_51/sram_inst/ctrl/r_tristate (FF)
+  Destination:       ext_pins_inout<15> (PAD)
+  Source Clock:      ext_pins_in<0> rising 3.0X
+
+  Data Path: XLXI_51/sram_inst/ctrl/r_tristate to ext_pins_inout<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q             16   0.525   1.181  XLXI_51/sram_inst/ctrl/r_tristate (XLXI_51/sram_inst/ctrl/r_tristate)
+     IOBUF:T->IO               2.912          ext_pins_inout_15_IOBUF (ext_pins_inout<15>)
+    ----------------------------------------
+    Total                      4.618ns (3.437ns logic, 1.181ns route)
+                                       (74.4% logic, 25.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock ext_pins_in<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ext_pins_in<0> |   13.010|    1.324|         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 27.00 secs
+Total CPU time to Xst completion: 26.35 secs
+ 
+--> 
+
+Total memory usage is 222392 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  486 (   0 filtered)
+Number of infos    :   57 (   0 filtered)
+

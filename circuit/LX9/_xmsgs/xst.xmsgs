@@ -1,0 +1,1552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd" Line 299: <arg fmt="%s" index="1">gpio_spp_read</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd" Line 300: <arg fmt="%s" index="1">gpio_spp_read</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd" Line 301: <arg fmt="%s" index="1">gpio_spp_read</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd" Line 302: <arg fmt="%s" index="1">gpio_spp_read</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd" Line 303: <arg fmt="%s" index="1">gpio_spp_read</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\DesignLab-1.0.5\libraries\Papilio_Hardware\Papilio_Default_Wing_Pinout.vhd" Line 304: <arg fmt="%s" index="1">gpio_spp_read</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\DesignLab-1.0.5\libraries\ZPUino_Wishbone_Peripherals\Wishbone_to_Registers_x10.vhd" Line 78: Net &lt;<arg fmt="%s" index="1">wb_inta_o</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" Line 47: Net &lt;<arg fmt="%s" index="1">XLXI_1_register4_in_openSignal[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" Line 48: Net &lt;<arg fmt="%s" index="1">XLXI_1_register5_in_openSignal[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" Line 49: Net &lt;<arg fmt="%s" index="1">XLXI_1_register6_in_openSignal[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" Line 50: Net &lt;<arg fmt="%s" index="1">XLXI_1_register7_in_openSignal[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" Line 51: Net &lt;<arg fmt="%s" index="1">XLXI_1_register8_in_openSignal[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf" Line 52: Net &lt;<arg fmt="%s" index="1">XLXI_1_register9_in_openSignal[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\DesignLab-1.0.5\libraries\ZPUino_2\ZPUino_Papilio_Pro_V2.vhd" Line 174: &lt;<arg fmt="%s" index="1">zpuino_papilio_pro_v2_blackbox</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\DesignLab-1.0.5\libraries\ZPUino_2\sdram_hamster.vhd" Line 251: Assignment to <arg fmt="%s" index="1">debug_cmd</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\DesignLab-1.0.5\libraries\ZPUino_2\sdram_hamster.vhd" Line 340: <arg fmt="%s" index="1">data_mask</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 116: Net &lt;<arg fmt="%s" index="1">XLXI_38_Flex_Pin_out_0_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 117: Net &lt;<arg fmt="%s" index="1">XLXI_38_Flex_Pin_out_1_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 118: Net &lt;<arg fmt="%s" index="1">XLXI_38_Flex_Pin_out_2_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 119: Net &lt;<arg fmt="%s" index="1">XLXI_38_Flex_Pin_out_3_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 120: Net &lt;<arg fmt="%s" index="1">XLXI_38_Flex_Pin_out_4_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 121: Net &lt;<arg fmt="%s" index="1">XLXI_38_Flex_Pin_out_5_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 122: Net &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_video_in_openSignal[100]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 124: Net &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_6_out_openSignal[100]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 126: Net &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_8_out_openSignal[100]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 128: Net &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_9_out_openSignal[100]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 130: Net &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_10_out_openSignal[100]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 132: Net &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_11_out_openSignal[100]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 134: Net &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_12_out_openSignal[100]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 136: Net &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_13_out_openSignal[100]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf" Line 138: Net &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_14_out_openSignal[100]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">292</arg>: Output port &lt;<arg fmt="%s" index="3">Flex_Pin_in_0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_38</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">292</arg>: Output port &lt;<arg fmt="%s" index="3">Flex_Pin_in_1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_38</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">292</arg>: Output port &lt;<arg fmt="%s" index="3">Flex_Pin_in_2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_38</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">292</arg>: Output port &lt;<arg fmt="%s" index="3">Flex_Pin_in_3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_38</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">292</arg>: Output port &lt;<arg fmt="%s" index="3">Flex_Pin_in_4</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_38</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">292</arg>: Output port &lt;<arg fmt="%s" index="3">Flex_Pin_in_5</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_38</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">381</arg>: Output port &lt;<arg fmt="%s" index="3">wishbone_slot_video_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_51</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">381</arg>: Output port &lt;<arg fmt="%s" index="3">wishbone_slot_6_in</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_51</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">381</arg>: Output port &lt;<arg fmt="%s" index="3">wishbone_slot_8_in</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_51</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">381</arg>: Output port &lt;<arg fmt="%s" index="3">wishbone_slot_9_in</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_51</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">381</arg>: Output port &lt;<arg fmt="%s" index="3">wishbone_slot_10_in</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_51</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">381</arg>: Output port &lt;<arg fmt="%s" index="3">wishbone_slot_11_in</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_51</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">381</arg>: Output port &lt;<arg fmt="%s" index="3">wishbone_slot_12_in</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_51</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">381</arg>: Output port &lt;<arg fmt="%s" index="3">wishbone_slot_13_in</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_51</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">381</arg>: Output port &lt;<arg fmt="%s" index="3">wishbone_slot_14_in</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_51</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">381</arg>: Output port &lt;<arg fmt="%s" index="3">clk_1Mhz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_51</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Papilio_Pro.vhf</arg>&quot; line <arg fmt="%s" index="2">381</arg>: Output port &lt;<arg fmt="%s" index="3">clk_osc_32Mhz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_51</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_video_in_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_6_out_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_8_out_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_9_out_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_10_out_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_11_out_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_12_out_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_13_out_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_51_wishbone_slot_14_out_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_38_Flex_Pin_out_0_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_38_Flex_Pin_out_1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_38_Flex_Pin_out_2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_38_Flex_Pin_out_3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_38_Flex_Pin_out_4_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_38_Flex_Pin_out_5_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">gpio_bus_out&lt;200:148&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">gpio_bus_in&lt;200:98&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">gpio_bus_in&lt;48&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">register0_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">register1_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">register2_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">register3_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">register4_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">register5_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">register6_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">register7_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">register8_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\kr\Documents\DesignLab\libraries\Quadrature_decoder\circuit\LX9\Quadrature_decoder.vhf</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">register9_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_1_register4_in_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_1_register5_in_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_1_register6_in_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_1_register7_in_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_1_register8_in_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_1_register9_in_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">wishbone_in&lt;100:62&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">wishbone_out&lt;100:34&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">wb_inta_o</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ext_pins_in&lt;100:3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="2774" delta="new" >HDL ADVISOR - <arg fmt="%s" index="1">KEEP</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">ext_pins_inout&lt;15:0&gt;</arg> may hinder XST clustering optimizations.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">wb_adr_i&lt;26:23&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="new" >State <arg fmt="%s" index="1">111100111</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">rstate</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="new" >State <arg fmt="%s" index="1">111110111</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">rstate</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2774" delta="new" >HDL ADVISOR - <arg fmt="%s" index="1">IOB</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">r_bank</arg> may hinder XST clustering optimizations.
+</msg>
+
+<msg type="warning" file="Xst" num="2042" delta="new" >Unit <arg fmt="%s" index="1">Papilio_Default_Wing_Pinout</arg>: <arg fmt="%d" index="2">8</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register0_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register9_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register8_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register7_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register6_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register5_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register4_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register3_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register2_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_41/XLXI_1/register1_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Papilio_Pro</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;100&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;99&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;98&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;97&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;96&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;95&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;94&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;93&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;92&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;91&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;90&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;89&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;88&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;87&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;86&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;85&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;84&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;83&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;82&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;81&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;80&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;79&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;78&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;77&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;76&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;75&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;74&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;73&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;72&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;71&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;70&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;69&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;68&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;67&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;66&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;65&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;64&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;63&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;62&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;61&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;60&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;59&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;58&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;57&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;56&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;55&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;54&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;53&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;52&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;51&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;50&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;49&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;48&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;47&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;46&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;45&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;44&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;43&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;42&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;41&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;40&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;39&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;38&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;37&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;36&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;35&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;34&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;33&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;32&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;31&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;30&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;29&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;28&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;27&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;26&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;25&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;24&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;23&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;22&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;21&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;20&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;19&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;18&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;17&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Edge <arg fmt="%s" index="1">ext_pins_inout&lt;16&gt;</arg> has no source ports and will not be translated to ABC.</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_17</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_51/sram_inst/ctrl/r_rf_counter_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Papilio_Pro</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/exr_state_FSM_FFd3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/exr_state_FSM_FFd3_1&gt; &lt;zpuino/core/exr_state_FSM_FFd3_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/cache/stb</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/cache/cyc&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/lsu/r_addr_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/lsu/r_addr_27_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/exr_state_FSM_FFd4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/exr_state_FSM_FFd4_1&gt; &lt;zpuino/core/exr_state_FSM_FFd4_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">timers_inst/timer0_inst/tmrr_presrst</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;timers_inst/timer1_inst/tmrr_presrst&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">slot4/wb_ack_o</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;slot4/trans&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/exr_tos_31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/exr_tos_31_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/memarb/current_master</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/memarb/current_master_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/prefr_decodedOpcode_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/prefr_decodedOpcode_2_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/prefr_decodedOpcode_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/prefr_decodedOpcode_4_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/exr_state_FSM_FFd1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/exr_state_FSM_FFd1_1&gt; &lt;zpuino/core/exr_state_FSM_FFd1_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/exr_state_FSM_FFd2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/exr_state_FSM_FFd2_1&gt; &lt;zpuino/core/exr_state_FSM_FFd2_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/memarb2/current_master</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/memarb2/current_master_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/exr_state_FSM_FFd3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/exr_state_FSM_FFd3_1&gt; &lt;zpuino/core/exr_state_FSM_FFd3_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/cache/stb</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/cache/cyc&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/lsu/r_addr_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/lsu/r_addr_27_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/exr_state_FSM_FFd4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/exr_state_FSM_FFd4_1&gt; &lt;zpuino/core/exr_state_FSM_FFd4_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">timers_inst/timer0_inst/tmrr_presrst</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;timers_inst/timer1_inst/tmrr_presrst&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">slot4/wb_ack_o</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;slot4/trans&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/exr_tos_31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/exr_tos_31_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/memarb/current_master</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/memarb/current_master_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/prefr_decodedOpcode_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/prefr_decodedOpcode_2_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/prefr_decodedOpcode_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/prefr_decodedOpcode_4_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/exr_state_FSM_FFd1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/exr_state_FSM_FFd1_1&gt; &lt;zpuino/core/exr_state_FSM_FFd1_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/core/exr_state_FSM_FFd2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;zpuino/core/exr_state_FSM_FFd2_1&gt; &lt;zpuino/core/exr_state_FSM_FFd2_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">zpuino/memarb2/current_master</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_51/Inst_ZPUino_Papilio_Pro_V2_blackbox</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;zpuino/memarb2/current_master_1&gt; </arg>
+</msg>
+
+</messages>
+

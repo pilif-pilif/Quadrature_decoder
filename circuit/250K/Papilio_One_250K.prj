@@ -1,0 +1,8 @@
+vhdl DesignLab "../../Q_decoder.vhd"
+vhdl DesignLab "../../../../../../../../DesignLab-1.0.5/libraries/ZPUino_Wishbone_Peripherals/Wishbone_to_Registers_x10.vhd"
+vhdl DesignLab "../../../../../../../../DesignLab-1.0.5/libraries/ZPUino_2/pad.vhd"
+vhdl work "Quadrature_decoder.vhf"
+vhdl DesignLab "../../../../../../../../DesignLab-1.0.5/libraries/ZPUino_2/ZPUino_Papilio_One_250K_V2.vhd"
+vhdl DesignLab "../../../../../../../../DesignLab-1.0.5/libraries/Papilio_Hardware/Wing_GPIO.vhd"
+vhdl DesignLab "../../../../../../../../DesignLab-1.0.5/libraries/Papilio_Hardware/Papilio_Default_Wing_Pinout.vhd"
+vhdl work "Papilio_One_250K.vhf"

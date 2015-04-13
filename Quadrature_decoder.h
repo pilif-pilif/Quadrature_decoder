@@ -36,3 +36,4 @@ class Quadrature_decoder
 };
 
 #endif
+
